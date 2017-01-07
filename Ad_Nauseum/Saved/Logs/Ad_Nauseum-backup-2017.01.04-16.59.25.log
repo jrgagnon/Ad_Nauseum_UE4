@@ -1,0 +1,1286 @@
+﻿Log file open, 01/03/17 16:34:32
+LogInit:Display: Running engine for game: Ad_Nauseum
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1999416926) SRandInit(-1999416926).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.151537
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3224400
+LogInit: Engine Version: 4.14.1-3224400+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Dec  7 2016 02:14:32
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.03-21.34.33:781][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.03-21.34.33:781][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.03-21.34.33:971][  0]LogInit: Computer: JORDANS-PC
+[2017.01.03-21.34.33:971][  0]LogInit: User: jgagn000
+[2017.01.03-21.34.33:971][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.01.03-21.34.33:971][  0]LogInit: High frequency timer resolution =2.435886 MHz
+[2017.01.03-21.34.33:971][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.01.03-21.34.33:987][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-21.34.33:987][  0]LogMemory: Process Physical Memory: 264.20 MB used, 264.20 MB peak
+[2017.01.03-21.34.33:987][  0]LogMemory: Process Virtual Memory: 262.44 MB used, 262.44 MB peak
+[2017.01.03-21.34.33:987][  0]LogMemory: Physical Memory: 2742.93 MB used,  5338.34 MB free, 8081.27 MB total
+[2017.01.03-21.34.33:987][  0]LogMemory: Virtual Memory: 674.52 MB used,  5338.34 MB free, 134217728.00 MB total
+[2017.01.03-21.34.35:663][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.01.03-21.34.45:159][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.03-21.34.45:214][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 630M' (Feature Level 11_0)
+[2017.01.03-21.34.45:214][  0]LogD3D11RHI:       978/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.01.03-21.34.45:219][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.01.03-21.34.45:219][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.01.03-21.34.45:233][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.03-21.34.45:233][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.03-21.34.45:233][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.03-21.34.45:251][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.03-21.34.45:251][  0]LogD3D11RHI:     GPU DeviceId: 0xde9 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.03-21.34.45:251][  0]LogWindows: EnumDisplayDevices:
+[2017.01.03-21.34.45:251][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2017.01.03-21.34.45:252][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.01.03-21.34.45:252][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.01.03-21.34.45:253][  0]LogWindows:    3. 'NVIDIA GeForce GT 630M' (P:0 D:0)
+[2017.01.03-21.34.45:253][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.01.03-21.34.45:253][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 630M
+[2017.01.03-21.34.45:254][  0]LogD3D11RHI:   Driver Version: 372.70 (internal:21.21.13.7270, unified:372.70)
+[2017.01.03-21.34.45:254][  0]LogD3D11RHI:      Driver Date: 8-25-2016
+[2017.01.03-21.34.45:254][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2017.01.03-21.34.45:278][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.03-21.34.45:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.03-21.34.45:653][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.03-21.34.49:711][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.03-21.34.49:711][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.03-21.34.49:738][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Intermediate/Shaders/WorkingDirectory/7156/).
+[2017.01.03-21.34.49:738][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jgagn_000/AppData/Local/Temp/UnrealShaderWorkingDir/72AE285C4D7A9EF3F164CEB4E0B46833/'.
+[2017.01.03-21.34.49:738][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.03-21.34.59:346][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.03-21.35.00:845][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.03-21.35.02:259][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.03-21.35.03:457][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.03-21.35.04:647][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.03-21.35.05:613][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.03-21.35.06:426][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.03-21.35.07:143][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.03-21.35.07:855][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.03-21.35.08:607][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.03-21.35.09:278][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.03-21.35.09:973][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.03-21.35.10:711][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.03-21.35.11:254][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.03-21.35.11:881][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.03-21.35.12:839][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.03-21.35.12:839][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.03-21.35.13:210][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.03-21.35.13:809][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.03-21.35.13:868][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.03-21.35.14:193][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.03-21.35.14:462][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.03-21.35.14:758][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.03-21.35.14:952][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.03-21.35.14:952][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.03-21.35.17:389][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.03-21.35.17:983][  0]LogDerivedDataCache: Loaded boot cache 0.59s 50MB C:/Users/jgagn_000/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.03-21.35.17:983][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jgagn_000/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.03-21.35.17:983][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.03-21.35.17:983][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.03-21.35.17:983][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.03-21.35.17:983][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.03-21.35.18:126][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.03-21.35.18:138][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jgagn_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.03-21.35.31:968][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.03-21.35.32:137][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.03-21.35.33:845][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.03-21.35.34:036][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.03-21.35.34:191][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.03-21.35.34:191][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.03-21.35.34:191][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.03-21.35.43:230][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: ad_nauseum, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 86724054
+[2017.01.03-21.35.43:586][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
+[2017.01.03-21.35.43:935][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.231756 seconds
+[2017.01.03-21.35.44:018][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.03-21.35.44:018][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.01.03-21.35.44:018][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.03-21.35.44:239][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.03-21.35.49:086][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.03-21.35.49:143][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.03-21.35.49:144][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.03-21.36.10:573][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.03-21.36.10:699][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.03-21.36.12:937][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.03-21.36.15:334][  0]SourceControl: Info Source control is disabled
+[2017.01.03-21.36.15:896][  0]SourceControl: Info Source control is disabled
+[2017.01.03-21.36.16:163][  0]SourceControl: Info Source control is disabled
+[2017.01.03-21.36.16:417][  0]SourceControl: Info Source control is disabled
+[2017.01.03-21.36.23:126][  0]LogEngine: Initializing Engine...
+[2017.01.03-21.36.23:334][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2017.01.03-21.36.25:618][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.03-21.36.26:051][  0]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-21.36.26:095][  0]LogInit: FAudioDevice initialized.
+[2017.01.03-21.36.26:134][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/jgagn_000/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.03-21.36.26:335][  0]LogInit: Texture streaming: Enabled
+[2017.01.03-21.36.27:351][  0]LogInit: Transaction tracking system initialized
+[2017.01.03-21.36.29:160][  0]BlueprintLog: New page: Editor Load
+[2017.01.03-21.36.33:906][  0]LocalizationService: Info Localization service is disabled
+[2017.01.03-21.36.37:210][  0]LogConsoleResponse:Display: 
+[2017.01.03-21.36.40:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/' took 0.03s
+[2017.01.03-21.36.40:967][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.03-21.36.40:986][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.03-21.36.45:781][  0]SourceControl: Info Source control is disabled
+[2017.01.03-21.36.45:855][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.03-21.36.45:905][  0]LightingResults: New page: Lighting Build
+[2017.01.03-21.36.46:405][  0]MapCheck: New page: Map Check
+[2017.01.03-21.36.46:406][  0]LightingResults: New page: Lighting Build
+[2017.01.03-21.36.51:272][  0]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-21.36.52:461][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.03-21.36.52:571][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.03-21.36.52:672][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.067ms to complete.
+[2017.01.03-21.36.52:672][  0]LogFileHelpers: Loading map 'Level_1' took 6.841
+[2017.01.03-21.36.54:904][  0]LogCollectionManager: Loaded 0 collections in 0.005331 seconds
+[2017.01.03-21.36.55:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Collections/' took 0.01s
+[2017.01.03-21.36.55:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Developers/jgagn000/Collections/' took 0.01s
+[2017.01.03-21.36.55:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Collections/' took 0.01s
+[2017.01.03-21.36.55:327][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.01.03-21.36.55:380][  0]LogContentBrowser: Native class hierarchy populated in 0.0442 seconds. Added 2190 classes and 428 folders.
+[2017.01.03-21.36.55:657][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.03-21.36.55:658][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.03-21.36.55:660][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0015 seconds. Added 13 classes and 0 folders.
+[2017.01.03-21.36.55:938][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.01.03-21.36.57:415][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.01.03-21.36.57:716][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.01.03-21.36.59:388][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.03-21.36.59:804][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.03-21.37.00:108][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0028 seconds. Added 1 classes and 2 folders.
+[2017.01.03-21.37.00:108][  0]LogLoad: (Engine Initialization) Total time: 155.58 seconds
+[2017.01.03-21.37.00:108][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.41 seconds
+[2017.01.03-21.37.00:134][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.03-21.37.00:134][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.03-21.37.00:610][  0]LogOcInput: OculusInput pre-init called
+[2017.01.03-21.37.01:651][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.03-21.37.04:001][  0]LogRenderer: Reallocating scene render targets to support 776x372 NumSamples 1 (Frame:2).
+[2017.01.03-21.37.06:621][  7]LogAssetRegistry: Asset discovery search completed in 83.0578 seconds
+[2017.01.03-21.37.06:644][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.01.03-21.37.06:644][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000737 seconds (updated 0 objects)
+[2017.01.03-21.37.25:866][813]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-21.37.26:064][813]Cmd: MAP LOAD FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/MenuItems/MenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.03-21.37.26:064][813]LightingResults: New page: Lighting Build
+[2017.01.03-21.37.26:066][813]LoadErrors: New page: Loading map: MenuMap.umap
+[2017.01.03-21.37.26:094][813]MapCheck: New page: Map Check
+[2017.01.03-21.37.26:094][813]LightingResults: New page: Lighting Build
+[2017.01.03-21.37.26:342][813]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.03-21.37.26:426][813]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.03-21.37.26:547][813]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.077ms to complete.
+[2017.01.03-21.37.26:547][813]LogFileHelpers: Loading map 'MenuMap' took 0.539
+[2017.01.03-21.37.56:389][536]Cmd: DELETE
+[2017.01.03-21.37.56:389][536]Cmd: ACTOR DELETE
+[2017.01.03-21.37.56:525][536]LogEditorActor: Deleted Actor: Menu_Loader_C
+[2017.01.03-21.37.56:614][536]LogEditorActor: Deleted 1 Actors (0.130 secs)
+[2017.01.03-21.38.12:098][357]LogEditorViewport: Clicking Background
+[2017.01.03-21.38.17:280][642]Cmd: ACTOR HIDE SELECTED
+[2017.01.03-21.38.31:435][475]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-21.38.31:513][475]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.38.31:532][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-21.38.31:595][475]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 11:38:31 AM)
+[2017.01.03-21.38.31:595][475]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-21.38.31:678][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082814s)
+[2017.01.03-21.38.31:679][475]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-21.38.31:697][475]LogPlayLevel: PIE: World Init took: (0.018777s)
+[2017.01.03-21.38.31:707][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.112204s)
+[2017.01.03-21.38.31:817][475]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-21.38.31:837][475]LogInit: FAudioDevice initialized.
+[2017.01.03-21.38.32:088][475]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.38.32:089][475]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.38.32:089][475]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-21.38.32:089][475]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-21.38.32:179][475]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-16.38.32
+[2017.01.03-21.38.32:289][475]LogWorld: Bringing up level for play took: 0.112369
+[2017.01.03-21.38.32:599][475]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0027 seconds. Added 11 classes and 0 folders.
+[2017.01.03-21.38.32:720][475]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 2.072
+[2017.01.03-21.38.32:720][475]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.38.36:828][683]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.38.37:075][683]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.38.53:885][561]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 111 classes and 0 folders.
+[2017.01.03-21.39.49:946][401]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.39.49:947][401]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.39.49:947][401]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-21.39.49:948][401]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.39.49:948][401]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-21.40.17:632][961]BlueprintLog: New page: Compile MenuMap
+[2017.01.03-21.40.19:874][ 66]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-21.40.19:918][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.40.19:918][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-21.40.19:918][ 66]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 11:40:19 AM)
+[2017.01.03-21.40.19:918][ 66]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-21.40.19:921][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002550s)
+[2017.01.03-21.40.19:921][ 66]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-21.40.19:922][ 66]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2017.01.03-21.40.19:922][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.003753s)
+[2017.01.03-21.40.19:970][ 66]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-21.40.19:978][ 66]LogInit: FAudioDevice initialized.
+[2017.01.03-21.40.20:082][ 66]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.40.20:082][ 66]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.40.20:083][ 66]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-21.40.20:083][ 66]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-21.40.20:086][ 66]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-16.40.20
+[2017.01.03-21.40.20:087][ 66]LogWorld: Bringing up level for play took: 0.003267
+[2017.01.03-21.40.20:088][ 66]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-21.40.20:116][ 66]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap -0.531
+[2017.01.03-21.40.20:117][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.40.20:160][ 66]LogRenderer: Reallocating scene render targets to support 1164x684 NumSamples 1 (Frame:6030).
+[2017.01.03-21.40.22:197][127]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-21.40.22:197][127]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-21.40.22:292][127]Cmd: MEM
+[2017.01.03-21.40.22:374][127]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-21.40.22:374][127]LogMemory: Process Physical Memory: 1333.63 MB used, 1333.63 MB peak
+[2017.01.03-21.40.22:374][127]LogMemory: Process Virtual Memory: 1776.30 MB used, 1776.30 MB peak
+[2017.01.03-21.40.22:374][127]LogMemory: Physical Memory: 3887.63 MB used,  4193.65 MB free, 8081.27 MB total
+[2017.01.03-21.40.22:374][127]LogMemory: Virtual Memory: 2564.10 MB used,  4193.65 MB free, 134217728.00 MB total
+[2017.01.03-21.40.22:374][127]LogMemory: 
+[2017.01.03-21.40.22:374][127]Allocator Stats for TBB: (not implemented)
+[2017.01.03-21.40.23:919][127]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-21.40.23:920][127]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-21.40.23:956][127]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-16.40.23
+[2017.01.03-21.40.24:006][127]LogWorld: Bringing up level for play took: 0.065958
+[2017.01.03-21.40.24:085][127]LogLoad: Took 1.886925 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-21.40.31:830][299]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.40.32:011][299]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.40.44:093][803]LogSavePackage: Save=287.82ms
+[2017.01.03-21.40.44:093][803]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/MenuMap03D8BB6540AB5D88FCED28A078AC6F10.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/MenuItems/MenuMap.umap'
+[2017.01.03-21.40.44:148][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/MenuItems/MenuMap.umap
+[2017.01.03-21.40.44:229][803]LogFileHelpers: Saving map 'MenuMap' took 3.469
+[2017.01.03-21.41.16:500][502]LogBlueprint:Warning: [Slimey] 'SaveGameConnection' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:500][502]LogBlueprint:Warning: [Slimey] 'SaveGameConnection' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:500][502]LogBlueprint:Warning: [Slimey] 'SaveGameConnection' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:500][502]LogBlueprint:Warning: [Slimey] 'SaveGameConnection' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:500][502]LogBlueprint:Warning: [Slimey] 'L_levelIndexForMenu' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:500][502]LogBlueprint:Warning: [Slimey] 'L_levelIndexForMenu' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:500][502]LogBlueprint:Warning: [Slimey] 'L_levelCompleted' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:500][502]LogBlueprint:Warning: [Slimey] 'L_levelCompleted' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:501][502]LogBlueprint:Warning: [Slimey] 'L_levelUnlocked' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:501][502]LogBlueprint:Warning: [Slimey] 'L_levelUnlocked' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:501][502]LogBlueprint:Warning: [Slimey] 'L_levelName' variable not found. Base class was probably changed.
+[2017.01.03-21.41.16:501][502]LogBlueprint:Warning: [Slimey] 'L_levelName' variable not found. Base class was probably changed.
+[2017.01.03-21.42.58:792][176]BlueprintLog: New page: Compile Slimey
+[2017.01.03-21.47.13:391][152]BlueprintLog: New page: Compile Slimey
+[2017.01.03-21.47.16:601][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-21.47.16:926][240]LogSavePackage: Save=264.32ms
+[2017.01.03-21.47.16:926][240]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/SlimeyEEDEBDE642E99BF837B6A29A10D0ABE8.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-21.47.16:937][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-21.48.44:156][148]BlueprintLog: New page: Compile Slimey
+[2017.01.03-21.48.45:654][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-21.48.45:945][170]LogSavePackage: Save=258.85ms
+[2017.01.03-21.48.45:945][170]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey52A7E4E14C2BDC5BFE6D34A78D63A9AD.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-21.48.45:954][170]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-21.48.46:709][197]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-21.48.46:790][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.48.46:790][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-21.48.46:790][197]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 11:48:46 AM)
+[2017.01.03-21.48.46:791][197]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-21.48.46:796][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005217s)
+[2017.01.03-21.48.46:797][197]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-21.48.46:798][197]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2017.01.03-21.48.46:798][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.007887s)
+[2017.01.03-21.48.46:933][197]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-21.48.46:956][197]LogInit: FAudioDevice initialized.
+[2017.01.03-21.48.47:029][197]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.48.47:030][197]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-21.48.47:030][197]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-21.48.47:030][197]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-21.48.47:034][197]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-16.48.47
+[2017.01.03-21.48.47:036][197]LogWorld: Bringing up level for play took: 0.003813
+[2017.01.03-21.48.47:037][197]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-21.48.47:157][197]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 0.51
+[2017.01.03-21.48.47:158][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.48.48:268][227]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-21.48.48:268][227]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-21.48.48:380][227]Cmd: MEM
+[2017.01.03-21.48.48:463][227]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-21.48.48:463][227]LogMemory: Process Physical Memory: 1493.54 MB used, 1502.59 MB peak
+[2017.01.03-21.48.48:463][227]LogMemory: Process Virtual Memory: 1950.91 MB used, 1950.91 MB peak
+[2017.01.03-21.48.48:463][227]LogMemory: Physical Memory: 4173.46 MB used,  3907.82 MB free, 8081.27 MB total
+[2017.01.03-21.48.48:463][227]LogMemory: Virtual Memory: 2765.91 MB used,  3907.82 MB free, 134217728.00 MB total
+[2017.01.03-21.48.48:464][227]LogMemory: 
+[2017.01.03-21.48.48:464][227]Allocator Stats for TBB: (not implemented)
+[2017.01.03-21.48.48:886][227]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-21.48.48:887][227]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-21.48.48:907][227]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-16.48.48
+[2017.01.03-21.48.48:907][227]LogWorld: Bringing up level for play took: 0.018801
+[2017.01.03-21.48.48:926][227]LogLoad: Took 0.659016 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-21.48.56:018][364]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.48.56:175][364]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-21.50.50:528][224]BlueprintLog: New page: Compile Slimey
+[2017.01.03-21.50.52:678][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-21.50.52:986][251]LogSavePackage: Save=264.29ms
+[2017.01.03-21.50.52:986][251]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey198C609C4AC0DF2C13076AB7F3DF660F.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-21.50.52:995][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-21.52.49:200][438]LogSavePackage: Save=343.25ms
+[2017.01.03-21.52.49:200][438]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/MenuMap_Auto14927CC964DDBAEDF6D11B9A5B56A1878.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/MenuItems/MenuMap_Auto1.umap'
+[2017.01.03-21.52.49:204][438]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/MenuItems/MenuMap_Auto1.umap
+[2017.01.03-21.52.49:228][438]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ad_Nauseum/MenuItems/MenuMap' took 0.566
+[2017.01.03-21.52.49:228][438]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.566
+[2017.01.03-21.52.49:260][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ad_Nauseum/Blueprints/Slimey] ([1] browsable assets)...
+[2017.01.03-21.52.49:260][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ad_Nauseum/Blueprints/Slimey]
+[2017.01.03-21.52.49:579][438]LogSavePackage: Save=271.45ms
+[2017.01.03-21.52.49:579][438]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey_Auto1AD110AA24D38670A09AFE49F498D6910.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/Blueprints/Slimey_Auto1.uasset'
+[2017.01.03-21.52.49:617][438]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/Blueprints/Slimey_Auto1.uasset
+[2017.01.03-21.52.49:617][438]LogFileHelpers: Auto-saving content packages took 0.378
+[2017.01.03-22.03.26:197][ 34]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.04.17:235][427]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.01.03-22.05.46:915][665]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.05.49:410][703]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.05.49:557][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.05.49:558][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.05.49:558][703]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:05:49 PM)
+[2017.01.03-22.05.49:558][703]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.05.49:563][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004277s)
+[2017.01.03-22.05.49:564][703]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.05.49:565][703]LogPlayLevel: PIE: World Init took: (0.002271s)
+[2017.01.03-22.05.49:565][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.007084s)
+[2017.01.03-22.05.49:675][703]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.05.49:696][703]LogInit: FAudioDevice initialized.
+[2017.01.03-22.05.49:748][703]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.05.49:749][703]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.05.49:749][703]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.05.49:749][703]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.05.49:753][703]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.05.49
+[2017.01.03-22.05.49:754][703]LogWorld: Bringing up level for play took: 0.003522
+[2017.01.03-22.05.49:755][703]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.05.49:771][703]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 1.124
+[2017.01.03-22.05.49:772][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.05.51:188][728]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.05.51:188][728]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.05.51:340][728]Cmd: MEM
+[2017.01.03-22.05.51:426][728]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.05.51:426][728]LogMemory: Process Physical Memory: 1107.69 MB used, 1535.13 MB peak
+[2017.01.03-22.05.51:426][728]LogMemory: Process Virtual Memory: 2091.39 MB used, 2091.39 MB peak
+[2017.01.03-22.05.51:426][728]LogMemory: Physical Memory: 4002.88 MB used,  4078.39 MB free, 8081.27 MB total
+[2017.01.03-22.05.51:426][728]LogMemory: Virtual Memory: 2893.97 MB used,  4078.39 MB free, 134217728.00 MB total
+[2017.01.03-22.05.51:426][728]LogMemory: 
+[2017.01.03-22.05.51:426][728]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.05.51:663][728]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.05.51:664][728]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.05.51:687][728]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.05.51
+[2017.01.03-22.05.51:688][728]LogWorld: Bringing up level for play took: 0.023337
+[2017.01.03-22.05.51:694][728]LogLoad: Took 0.505597 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.05.53:537][739]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Slimey_C /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.Slimey_C_0
+	Function /Game/Ad_Nauseum/Blueprints/Slimey.Slimey_C:ExecuteUbergraph_Slimey:0427
+[2017.01.03-22.05.53:556][739]PIE:Error: Error Infinite Loop detected in  Slimey , asserted during  WhileLoop with the following  Call Stack
+[2017.01.03-22.05.53:558][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.05.53:704][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.06.41:047][136]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.06.41:192][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.06.41:192][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.06.41:193][136]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:06:41 PM)
+[2017.01.03-22.06.41:193][136]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.06.41:198][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004865s)
+[2017.01.03-22.06.41:199][136]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.06.41:200][136]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2017.01.03-22.06.41:200][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.006958s)
+[2017.01.03-22.06.41:294][136]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.06.41:316][136]LogInit: FAudioDevice initialized.
+[2017.01.03-22.06.41:366][136]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.06.41:367][136]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.06.41:367][136]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.06.41:367][136]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.06.41:372][136]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.06.41
+[2017.01.03-22.06.41:373][136]LogWorld: Bringing up level for play took: 0.004428
+[2017.01.03-22.06.41:374][136]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.06.41:383][136]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 0.736
+[2017.01.03-22.06.41:384][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.06.42:608][154]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.06.42:608][154]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.06.42:741][154]Cmd: MEM
+[2017.01.03-22.06.42:821][154]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.06.42:821][154]LogMemory: Process Physical Memory: 1118.06 MB used, 1535.13 MB peak
+[2017.01.03-22.06.42:821][154]LogMemory: Process Virtual Memory: 2105.95 MB used, 2166.04 MB peak
+[2017.01.03-22.06.42:821][154]LogMemory: Physical Memory: 4014.64 MB used,  4066.64 MB free, 8081.27 MB total
+[2017.01.03-22.06.42:821][154]LogMemory: Virtual Memory: 2929.97 MB used,  4066.64 MB free, 134217728.00 MB total
+[2017.01.03-22.06.42:821][154]LogMemory: 
+[2017.01.03-22.06.42:821][154]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.06.43:055][154]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.06.43:056][154]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.06.43:075][154]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.06.43
+[2017.01.03-22.06.43:076][154]LogWorld: Bringing up level for play took: 0.019753
+[2017.01.03-22.06.43:082][154]LogLoad: Took 0.473995 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.06.45:143][169]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Slimey_C /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.Slimey_C_0
+	Function /Game/Ad_Nauseum/Blueprints/Slimey.Slimey_C:ExecuteUbergraph_Slimey:0427
+[2017.01.03-22.06.45:144][169]PIE:Error: Error Infinite Loop detected in  Slimey , asserted during  WhileLoop with the following  Call Stack
+[2017.01.03-22.06.45:146][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.06.45:262][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.06.46:903][224]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.06.47:040][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.06.47:040][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.06.47:040][224]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:06:47 PM)
+[2017.01.03-22.06.47:041][224]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.06.47:045][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004288s)
+[2017.01.03-22.06.47:046][224]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.06.47:046][224]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2017.01.03-22.06.47:047][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.006122s)
+[2017.01.03-22.06.47:143][224]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.06.47:166][224]LogInit: FAudioDevice initialized.
+[2017.01.03-22.06.47:222][224]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.06.47:223][224]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.06.47:224][224]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.06.47:224][224]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.06.47:227][224]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.06.47
+[2017.01.03-22.06.47:228][224]LogWorld: Bringing up level for play took: 0.003132
+[2017.01.03-22.06.47:229][224]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.06.47:240][224]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 0.593
+[2017.01.03-22.06.47:241][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.06.48:530][242]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.06.48:530][242]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.06.48:679][242]Cmd: MEM
+[2017.01.03-22.06.48:779][242]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.06.48:779][242]LogMemory: Process Physical Memory: 1165.65 MB used, 1535.13 MB peak
+[2017.01.03-22.06.48:779][242]LogMemory: Process Virtual Memory: 2113.00 MB used, 2167.70 MB peak
+[2017.01.03-22.06.48:779][242]LogMemory: Physical Memory: 4071.32 MB used,  4009.96 MB free, 8081.27 MB total
+[2017.01.03-22.06.48:779][242]LogMemory: Virtual Memory: 2917.97 MB used,  4009.96 MB free, 134217728.00 MB total
+[2017.01.03-22.06.48:779][242]LogMemory: 
+[2017.01.03-22.06.48:779][242]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.06.49:049][242]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.06.49:050][242]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.06.49:072][242]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.06.49
+[2017.01.03-22.06.49:074][242]LogWorld: Bringing up level for play took: 0.021638
+[2017.01.03-22.06.49:082][242]LogLoad: Took 0.551774 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.06.50:659][250]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	Slimey_C /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.Slimey_C_0
+	Function /Game/Ad_Nauseum/Blueprints/Slimey.Slimey_C:ExecuteUbergraph_Slimey:0427
+[2017.01.03-22.06.50:659][250]PIE:Error: Error Infinite Loop detected in  Slimey , asserted during  WhileLoop with the following  Call Stack
+[2017.01.03-22.06.50:662][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.06.50:794][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.08.54:487][230]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.08.56:018][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.08.56:369][254]LogSavePackage: Save=286.12ms
+[2017.01.03-22.08.56:369][254]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/SlimeyADFFD86C40113D1BA25434990908D72D.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.08.56:419][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.08.57:475][305]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.08.57:615][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.08.57:615][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.08.57:615][305]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:08:57 PM)
+[2017.01.03-22.08.57:615][305]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.08.57:619][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003851s)
+[2017.01.03-22.08.57:621][305]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.08.57:621][305]LogPlayLevel: PIE: World Init took: (0.001954s)
+[2017.01.03-22.08.57:622][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.006319s)
+[2017.01.03-22.08.57:721][305]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.08.57:742][305]LogInit: FAudioDevice initialized.
+[2017.01.03-22.08.57:792][305]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.08.57:793][305]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.08.57:793][305]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.08.57:793][305]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.08.57:796][305]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.08.57
+[2017.01.03-22.08.57:798][305]LogWorld: Bringing up level for play took: 0.003423
+[2017.01.03-22.08.57:799][305]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.08.57:808][305]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 1.161
+[2017.01.03-22.08.57:809][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.08.59:122][325]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.08.59:122][325]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.08.59:255][325]Cmd: MEM
+[2017.01.03-22.08.59:339][325]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.08.59:339][325]LogMemory: Process Physical Memory: 1133.75 MB used, 1535.13 MB peak
+[2017.01.03-22.08.59:339][325]LogMemory: Process Virtual Memory: 2106.39 MB used, 2169.91 MB peak
+[2017.01.03-22.08.59:339][325]LogMemory: Physical Memory: 4024.85 MB used,  4056.43 MB free, 8081.27 MB total
+[2017.01.03-22.08.59:339][325]LogMemory: Virtual Memory: 2925.97 MB used,  4056.43 MB free, 134217728.00 MB total
+[2017.01.03-22.08.59:339][325]LogMemory: 
+[2017.01.03-22.08.59:339][325]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.08.59:585][325]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.08.59:586][325]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.08.59:604][325]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.08.59
+[2017.01.03-22.08.59:605][325]LogWorld: Bringing up level for play took: 0.017841
+[2017.01.03-22.08.59:611][325]LogLoad: Took 0.488380 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.09.09:154][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.09.09:330][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.09.41:392][984]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.09.41:527][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.09.41:528][984]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.01.03-22.09.41:547][984]LogPlayLevel: [PlayLevel] Compiling Slimey before play...
+[2017.01.03-22.09.42:115][984]LogPlayLevel: PlayLevel: Blueprint regeneration took 587 ms (1 blueprints)
+[2017.01.03-22.09.42:115][984]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:09:42 PM)
+[2017.01.03-22.09.42:116][984]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.09.42:120][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004288s)
+[2017.01.03-22.09.42:121][984]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.09.42:121][984]LogPlayLevel: PIE: World Init took: (0.001382s)
+[2017.01.03-22.09.42:122][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.006172s)
+[2017.01.03-22.09.42:213][984]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.09.42:235][984]LogInit: FAudioDevice initialized.
+[2017.01.03-22.09.42:290][984]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.09.42:291][984]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.09.42:291][984]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.09.42:291][984]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.09.42:295][984]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.09.42
+[2017.01.03-22.09.42:296][984]LogWorld: Bringing up level for play took: 0.003253
+[2017.01.03-22.09.42:297][984]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.09.42:305][984]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 1.658
+[2017.01.03-22.09.42:306][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.09.43:700][  5]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.09.43:700][  5]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.09.43:830][  5]Cmd: MEM
+[2017.01.03-22.09.43:914][  5]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.09.43:914][  5]LogMemory: Process Physical Memory: 1128.50 MB used, 1535.13 MB peak
+[2017.01.03-22.09.43:914][  5]LogMemory: Process Virtual Memory: 2104.05 MB used, 2169.91 MB peak
+[2017.01.03-22.09.43:914][  5]LogMemory: Physical Memory: 4005.30 MB used,  4075.97 MB free, 8081.27 MB total
+[2017.01.03-22.09.43:914][  5]LogMemory: Virtual Memory: 2921.97 MB used,  4075.97 MB free, 134217728.00 MB total
+[2017.01.03-22.09.43:914][  5]LogMemory: 
+[2017.01.03-22.09.43:914][  5]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.09.44:166][  5]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.09.44:167][  5]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.09.44:187][  5]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.09.44
+[2017.01.03-22.09.44:189][  5]LogWorld: Bringing up level for play took: 0.020626
+[2017.01.03-22.09.44:194][  5]LogLoad: Took 0.494533 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.09.55:015][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.09.55:190][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.12.50:394][404]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.12.52:185][438]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.12.52:329][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.12.52:329][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.12.52:329][438]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:12:52 PM)
+[2017.01.03-22.12.52:330][438]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.12.52:334][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004087s)
+[2017.01.03-22.12.52:335][438]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.12.52:336][438]LogPlayLevel: PIE: World Init took: (0.002067s)
+[2017.01.03-22.12.52:336][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.006686s)
+[2017.01.03-22.12.52:435][438]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.12.52:456][438]LogInit: FAudioDevice initialized.
+[2017.01.03-22.12.52:507][438]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.12.52:508][438]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.12.52:508][438]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.12.52:508][438]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.12.52:511][438]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.12.52
+[2017.01.03-22.12.52:512][438]LogWorld: Bringing up level for play took: 0.003338
+[2017.01.03-22.12.52:514][438]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.12.52:524][438]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap -0.123
+[2017.01.03-22.12.52:525][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.12.53:438][448]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.12.53:438][448]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.12.53:573][448]Cmd: MEM
+[2017.01.03-22.12.53:661][448]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.12.53:661][448]LogMemory: Process Physical Memory: 1238.84 MB used, 1535.13 MB peak
+[2017.01.03-22.12.53:661][448]LogMemory: Process Virtual Memory: 2220.49 MB used, 2220.49 MB peak
+[2017.01.03-22.12.53:661][448]LogMemory: Physical Memory: 4233.61 MB used,  3847.67 MB free, 8081.27 MB total
+[2017.01.03-22.12.53:661][448]LogMemory: Virtual Memory: 3014.84 MB used,  3847.67 MB free, 134217728.00 MB total
+[2017.01.03-22.12.53:661][448]LogMemory: 
+[2017.01.03-22.12.53:661][448]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.12.53:909][448]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.12.53:909][448]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.12.53:930][448]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.12.53
+[2017.01.03-22.12.53:931][448]LogWorld: Bringing up level for play took: 0.019991
+[2017.01.03-22.12.53:936][448]LogLoad: Took 0.498173 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.13.15:679][716]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.13.15:865][716]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.14.40:993][657]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.14.42:411][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.14.42:770][674]LogSavePackage: Save=296.83ms
+[2017.01.03-22.14.42:770][674]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey9563A6144CC9CB10DB736EBF4100973D.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.14.42:781][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.14.43:531][702]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.14.43:666][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.14.43:666][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.14.43:666][702]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:14:43 PM)
+[2017.01.03-22.14.43:667][702]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.14.43:671][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003835s)
+[2017.01.03-22.14.43:672][702]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.14.43:672][702]LogPlayLevel: PIE: World Init took: (0.001526s)
+[2017.01.03-22.14.43:673][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.005874s)
+[2017.01.03-22.14.43:766][702]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.14.43:787][702]LogInit: FAudioDevice initialized.
+[2017.01.03-22.14.43:842][702]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.14.43:843][702]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.14.43:843][702]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.14.43:843][702]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.14.43:847][702]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.14.43
+[2017.01.03-22.14.43:849][702]LogWorld: Bringing up level for play took: 0.004256
+[2017.01.03-22.14.43:850][702]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.14.43:860][702]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 1.213
+[2017.01.03-22.14.43:861][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.14.44:923][715]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.14.44:923][715]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.14.45:059][715]Cmd: MEM
+[2017.01.03-22.14.45:143][715]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.14.45:143][715]LogMemory: Process Physical Memory: 937.97 MB used, 1535.13 MB peak
+[2017.01.03-22.14.45:143][715]LogMemory: Process Virtual Memory: 2237.35 MB used, 2280.27 MB peak
+[2017.01.03-22.14.45:143][715]LogMemory: Physical Memory: 3912.91 MB used,  4168.37 MB free, 8081.27 MB total
+[2017.01.03-22.14.45:143][715]LogMemory: Virtual Memory: 3030.84 MB used,  4168.37 MB free, 134217728.00 MB total
+[2017.01.03-22.14.45:143][715]LogMemory: 
+[2017.01.03-22.14.45:143][715]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.14.45:392][715]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.14.45:392][715]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.14.45:412][715]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.14.45
+[2017.01.03-22.14.45:413][715]LogWorld: Bringing up level for play took: 0.018891
+[2017.01.03-22.14.45:418][715]LogLoad: Took 0.494894 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.15.10:264][ 16]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.15.10:457][ 16]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.17.18:263][549]LogSavePackage: Save=302.59ms
+[2017.01.03-22.17.18:263][549]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/MenuMap_Auto2BB769D56465AFD583DE6FF8DF254C02A.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/MenuItems/MenuMap_Auto2.umap'
+[2017.01.03-22.17.18:284][549]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/MenuItems/MenuMap_Auto2.umap
+[2017.01.03-22.17.18:289][549]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ad_Nauseum/MenuItems/MenuMap' took 0.533
+[2017.01.03-22.17.18:289][549]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.533
+[2017.01.03-22.17.18:294][549]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ad_Nauseum/Blueprints/Slimey] ([1] browsable assets)...
+[2017.01.03-22.17.18:294][549]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ad_Nauseum/Blueprints/Slimey]
+[2017.01.03-22.17.18:640][549]LogSavePackage: Save=313.12ms
+[2017.01.03-22.17.18:640][549]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey_Auto2676637B947C9DDEEFE106E8C89B9C128.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/Blueprints/Slimey_Auto2.uasset'
+[2017.01.03-22.17.18:645][549]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/Blueprints/Slimey_Auto2.uasset
+[2017.01.03-22.17.18:646][549]LogFileHelpers: Auto-saving content packages took 0.355
+[2017.01.03-22.18.36:989][563]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.18.38:667][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.18.39:003][595]LogSavePackage: Save=302.96ms
+[2017.01.03-22.18.39:004][595]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey5B0F4DB141F3EF71265430991260197D.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.18.39:022][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.19.55:669][346]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.19.57:504][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.19.57:861][384]LogSavePackage: Save=297.92ms
+[2017.01.03-22.19.57:861][384]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/SlimeyC5552EA7474A102A2D8F2C9AD1A9335C.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.19.57:872][384]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.21.24:057][775]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.21.25:078][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.21.25:411][791]LogSavePackage: Save=301.04ms
+[2017.01.03-22.21.25:411][791]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey0B6C0CFA4D8E178C6EC21596CDA50848.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.21.25:421][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.22.18:305][ 68]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.22.19:737][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.22.20:063][ 82]LogSavePackage: Save=295.15ms
+[2017.01.03-22.22.20:063][ 82]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey6C589A9D40BF707D4EA7C7AC236E13BD.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.22.20:073][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.22.20:679][104]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.22.20:813][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.22.20:813][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.22.20:813][104]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:22:20 PM)
+[2017.01.03-22.22.20:814][104]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.22.20:849][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034779s)
+[2017.01.03-22.22.20:850][104]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.22.20:850][104]LogPlayLevel: PIE: World Init took: (0.001590s)
+[2017.01.03-22.22.20:851][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.037129s)
+[2017.01.03-22.22.20:952][104]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.22.20:971][104]LogInit: FAudioDevice initialized.
+[2017.01.03-22.22.21:021][104]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.22.21:022][104]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.22.21:022][104]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.22.21:023][104]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.22.21:026][104]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.22.21
+[2017.01.03-22.22.21:027][104]LogWorld: Bringing up level for play took: 0.003381
+[2017.01.03-22.22.21:028][104]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.22.21:037][104]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 0.39
+[2017.01.03-22.22.21:037][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.22.24:031][144]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.22.24:031][144]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.22.24:206][144]Cmd: MEM
+[2017.01.03-22.22.24:289][144]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.22.24:289][144]LogMemory: Process Physical Memory: 1063.14 MB used, 1535.13 MB peak
+[2017.01.03-22.22.24:289][144]LogMemory: Process Virtual Memory: 2352.33 MB used, 2352.33 MB peak
+[2017.01.03-22.22.24:289][144]LogMemory: Physical Memory: 4063.23 MB used,  4018.04 MB free, 8081.27 MB total
+[2017.01.03-22.22.24:289][144]LogMemory: Virtual Memory: 3166.91 MB used,  4018.04 MB free, 134217728.00 MB total
+[2017.01.03-22.22.24:289][144]LogMemory: 
+[2017.01.03-22.22.24:289][144]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.22.24:541][144]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.22.24:542][144]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.22.24:563][144]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.22.24
+[2017.01.03-22.22.24:564][144]LogWorld: Bringing up level for play took: 0.020028
+[2017.01.03-22.22.24:569][144]LogLoad: Took 0.538581 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.22.43:035][275]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.22.43:284][275]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.23.20:628][104]BlueprintLog: New page: Compile Slimey
+[2017.01.03-22.23.22:416][141]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.23.22:548][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.23.22:548][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.23.22:548][141]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:23:22 PM)
+[2017.01.03-22.23.22:548][141]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.23.22:553][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004338s)
+[2017.01.03-22.23.22:554][141]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.23.22:554][141]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2017.01.03-22.23.22:555][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.006224s)
+[2017.01.03-22.23.22:649][141]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.23.22:669][141]LogInit: FAudioDevice initialized.
+[2017.01.03-22.23.22:721][141]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.23.22:722][141]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.23.22:722][141]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.23.22:722][141]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.23.22:726][141]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.23.22
+[2017.01.03-22.23.22:727][141]LogWorld: Bringing up level for play took: 0.003454
+[2017.01.03-22.23.22:728][141]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.23.22:736][141]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 0.089
+[2017.01.03-22.23.22:737][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.23.23:791][157]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.23.23:791][157]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.23.23:925][157]Cmd: MEM
+[2017.01.03-22.23.24:007][157]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.23.24:007][157]LogMemory: Process Physical Memory: 1059.44 MB used, 1535.13 MB peak
+[2017.01.03-22.23.24:007][157]LogMemory: Process Virtual Memory: 2350.28 MB used, 2406.37 MB peak
+[2017.01.03-22.23.24:007][157]LogMemory: Physical Memory: 4054.64 MB used,  4026.63 MB free, 8081.27 MB total
+[2017.01.03-22.23.24:007][157]LogMemory: Virtual Memory: 3158.91 MB used,  4026.63 MB free, 134217728.00 MB total
+[2017.01.03-22.23.24:007][157]LogMemory: 
+[2017.01.03-22.23.24:007][157]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.23.24:253][157]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.23.24:254][157]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.23.24:271][157]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.23.24
+[2017.01.03-22.23.24:271][157]LogWorld: Bringing up level for play took: 0.016304
+[2017.01.03-22.23.24:277][157]LogLoad: Took 0.486204 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.23.34:276][248]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.23.34:487][248]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.23.51:215][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.23.51:587][197]LogSavePackage: Save=334.92ms
+[2017.01.03-22.23.51:587][197]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/SlimeyD6D4E40F4DA22E3A1DD2BF8AABFF8456.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.23.51:598][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.23.52:746][265]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.23.52:871][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.23.52:871][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.23.52:871][265]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:23:52 PM)
+[2017.01.03-22.23.52:871][265]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.23.52:876][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004071s)
+[2017.01.03-22.23.52:877][265]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.23.52:877][265]LogPlayLevel: PIE: World Init took: (0.001345s)
+[2017.01.03-22.23.52:877][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.005910s)
+[2017.01.03-22.23.52:974][265]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.23.52:994][265]LogInit: FAudioDevice initialized.
+[2017.01.03-22.23.53:046][265]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.23.53:047][265]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.23.53:047][265]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.23.53:048][265]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.23.53:052][265]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.23.53
+[2017.01.03-22.23.53:053][265]LogWorld: Bringing up level for play took: 0.004389
+[2017.01.03-22.23.53:055][265]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.23.53:063][265]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap 0.417
+[2017.01.03-22.23.53:064][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.23.54:076][279]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.23.54:076][279]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.23.54:232][279]Cmd: MEM
+[2017.01.03-22.23.54:317][279]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.23.54:317][279]LogMemory: Process Physical Memory: 1058.23 MB used, 1535.13 MB peak
+[2017.01.03-22.23.54:317][279]LogMemory: Process Virtual Memory: 2349.58 MB used, 2409.70 MB peak
+[2017.01.03-22.23.54:317][279]LogMemory: Physical Memory: 3994.64 MB used,  4086.63 MB free, 8081.27 MB total
+[2017.01.03-22.23.54:317][279]LogMemory: Virtual Memory: 3142.91 MB used,  4086.63 MB free, 134217728.00 MB total
+[2017.01.03-22.23.54:317][279]LogMemory: 
+[2017.01.03-22.23.54:317][279]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.23.54:568][279]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.23.54:568][279]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.23.54:586][279]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.23.54
+[2017.01.03-22.23.54:587][279]LogWorld: Bringing up level for play took: 0.017085
+[2017.01.03-22.23.54:593][279]LogLoad: Took 0.516850 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.24.12:439][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.24.12:646][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.24.46:676][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.24.47:000][ 32]LogSavePackage: Save=288.34ms
+[2017.01.03-22.24.47:000][ 32]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/SlimeyEF7EEDF348A15BD26A4E2DBAC209A840.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.24.47:005][ 32]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.24.58:653][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.01.03-22.25.09:461][826]LogSavePackage: Save=285.82ms
+[2017.01.03-22.25.09:461][826]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/MenuMapCA1A088C45994422D4A86989D115E0E1.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/MenuItems/MenuMap.umap'
+[2017.01.03-22.25.09:470][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/MenuItems/MenuMap.umap
+[2017.01.03-22.26.11:635][451]BlueprintLog: New page: Compile Ad_Nauseum_Save
+[2017.01.03-22.26.28:692][437]BlueprintLog: New page: Compile Ad_Nauseum_Save
+[2017.01.03-22.26.29:940][479]LogSavePackage: Save=20.68ms
+[2017.01.03-22.26.29:940][479]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Ad_Nauseum_SaveD67F84EA40ACE15752EC31A617098F71.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Ad_Nauseum_Save.uasset'
+[2017.01.03-22.26.29:951][479]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Ad_Nauseum_Save.uasset
+[2017.01.03-22.26.47:675][533]BlueprintLog: New page: Compile Ad_Nauseum_Save
+[2017.01.03-22.26.48:550][560]LogSavePackage: Save=17.73ms
+[2017.01.03-22.26.48:550][560]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Ad_Nauseum_Save276B616043C85BD65F79E8A67C23426F.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Ad_Nauseum_Save.uasset'
+[2017.01.03-22.26.48:560][560]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Ad_Nauseum_Save.uasset
+[2017.01.03-22.27.02:208][265]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.27.02:276][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.02:277][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.27.02:277][265]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:27:02 PM)
+[2017.01.03-22.27.02:277][265]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.27.02:283][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005343s)
+[2017.01.03-22.27.02:284][265]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.27.02:284][265]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2017.01.03-22.27.02:285][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.007711s)
+[2017.01.03-22.27.02:382][265]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.27.02:402][265]LogInit: FAudioDevice initialized.
+[2017.01.03-22.27.02:475][265]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.27.02:476][265]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.27.02:476][265]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.27.02:476][265]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.27.02:479][265]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.27.02
+[2017.01.03-22.27.02:479][265]LogWorld: Bringing up level for play took: 0.002629
+[2017.01.03-22.27.02:486][265]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap -0.161
+[2017.01.03-22.27.02:487][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.03:532][292]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.27.03:532][292]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.27.03:655][292]Cmd: MEM
+[2017.01.03-22.27.03:737][292]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.27.03:737][292]LogMemory: Process Physical Memory: 1150.66 MB used, 1535.13 MB peak
+[2017.01.03-22.27.03:737][292]LogMemory: Process Virtual Memory: 2164.19 MB used, 2409.70 MB peak
+[2017.01.03-22.27.03:737][292]LogMemory: Physical Memory: 4072.80 MB used,  4008.47 MB free, 8081.27 MB total
+[2017.01.03-22.27.03:737][292]LogMemory: Virtual Memory: 2982.09 MB used,  4008.47 MB free, 134217728.00 MB total
+[2017.01.03-22.27.03:737][292]LogMemory: 
+[2017.01.03-22.27.03:737][292]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.27.03:992][292]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.27.03:993][292]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.27.04:014][292]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.27.04
+[2017.01.03-22.27.04:015][292]LogWorld: Bringing up level for play took: 0.020139
+[2017.01.03-22.27.04:020][292]LogLoad: Took 0.488201 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.27.17:648][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.17:745][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.27:619][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ad_Nauseum/Blueprints/Slimey" FILE="../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset" SILENT=true
+[2017.01.03-22.27.27:961][933]LogSavePackage: Save=295.24ms
+[2017.01.03-22.27.27:961][933]LogSavePackage: Moving '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Slimey63F4BB9542B8B47BB85676A04601D6A4.tmp' to '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset'
+[2017.01.03-22.27.27:965][933]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Slimey.uasset
+[2017.01.03-22.27.29:930][ 19]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.27.29:977][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.29:978][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.27.29:978][ 19]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:27:29 PM)
+[2017.01.03-22.27.29:978][ 19]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.27.29:983][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004748s)
+[2017.01.03-22.27.29:984][ 19]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.27.29:984][ 19]LogPlayLevel: PIE: World Init took: (0.001459s)
+[2017.01.03-22.27.29:985][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.006796s)
+[2017.01.03-22.27.30:085][ 19]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.27.30:106][ 19]LogInit: FAudioDevice initialized.
+[2017.01.03-22.27.30:158][ 19]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.27.30:160][ 19]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.27.30:160][ 19]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.27.30:160][ 19]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.27.30:164][ 19]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.27.30
+[2017.01.03-22.27.30:165][ 19]LogWorld: Bringing up level for play took: 0.003069
+[2017.01.03-22.27.30:166][ 19]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.01.03-22.27.30:174][ 19]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap -0.473
+[2017.01.03-22.27.30:175][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.30:992][ 31]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.27.30:993][ 31]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.27.31:147][ 31]Cmd: MEM
+[2017.01.03-22.27.31:224][ 31]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.27.31:224][ 31]LogMemory: Process Physical Memory: 1170.14 MB used, 1535.13 MB peak
+[2017.01.03-22.27.31:224][ 31]LogMemory: Process Virtual Memory: 2182.79 MB used, 2409.70 MB peak
+[2017.01.03-22.27.31:224][ 31]LogMemory: Physical Memory: 4099.59 MB used,  3981.69 MB free, 8081.27 MB total
+[2017.01.03-22.27.31:224][ 31]LogMemory: Virtual Memory: 2982.09 MB used,  3981.69 MB free, 134217728.00 MB total
+[2017.01.03-22.27.31:224][ 31]LogMemory: 
+[2017.01.03-22.27.31:224][ 31]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.27.31:469][ 31]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.27.31:469][ 31]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.27.31:489][ 31]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.27.31
+[2017.01.03-22.27.31:491][ 31]LogWorld: Bringing up level for play took: 0.019390
+[2017.01.03-22.27.31:496][ 31]LogLoad: Took 0.503661 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.27.48:047][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.48:246][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.52:311][363]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.03-22.27.52:377][363]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.52:378][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.03-22.27.52:378][363]PIE: New page: PIE session: MenuMap (Jan 3, 2017, 12:27:52 PM)
+[2017.01.03-22.27.52:378][363]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
+[2017.01.03-22.27.52:384][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005708s)
+[2017.01.03-22.27.52:385][363]LogAIModule: Creating AISystem for world MenuMap
+[2017.01.03-22.27.52:386][363]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2017.01.03-22.27.52:386][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.007918s)
+[2017.01.03-22.27.52:476][363]LogInit: XAudio2 using 'Headset Earphone (2- ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.03-22.27.52:495][363]LogInit: FAudioDevice initialized.
+[2017.01.03-22.27.52:533][363]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.27.52:534][363]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
+[2017.01.03-22.27.52:534][363]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
+[2017.01.03-22.27.52:534][363]LogLoad: Game class is 'GameModeBase'
+[2017.01.03-22.27.52:537][363]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 60) at 2017.01.03-17.27.52
+[2017.01.03-22.27.52:538][363]LogWorld: Bringing up level for play took: 0.002516
+[2017.01.03-22.27.52:545][363]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap -0.102
+[2017.01.03-22.27.52:545][363]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.53:405][385]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.27.53:405][385]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
+[2017.01.03-22.27.53:515][385]Cmd: MEM
+[2017.01.03-22.27.53:592][385]LogMemory: Platform Memory Stats for Windows
+[2017.01.03-22.27.53:592][385]LogMemory: Process Physical Memory: 1168.88 MB used, 1535.13 MB peak
+[2017.01.03-22.27.53:593][385]LogMemory: Process Virtual Memory: 2167.29 MB used, 2409.70 MB peak
+[2017.01.03-22.27.53:593][385]LogMemory: Physical Memory: 4093.29 MB used,  3987.98 MB free, 8081.27 MB total
+[2017.01.03-22.27.53:593][385]LogMemory: Virtual Memory: 2982.09 MB used,  3987.98 MB free, 134217728.00 MB total
+[2017.01.03-22.27.53:593][385]LogMemory: 
+[2017.01.03-22.27.53:593][385]Allocator Stats for TBB: (not implemented)
+[2017.01.03-22.27.53:844][385]LogAIModule: Creating AISystem for world Level_1
+[2017.01.03-22.27.53:845][385]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.01.03-22.27.53:867][385]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2017.01.03-17.27.53
+[2017.01.03-22.27.53:868][385]LogWorld: Bringing up level for play took: 0.021776
+[2017.01.03-22.27.53:873][385]LogLoad: Took 0.467958 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
+[2017.01.03-22.27.58:246][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.27.58:338][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
+[2017.01.03-22.28.26:935][169]Cmd: QUIT_EDITOR
+[2017.01.03-22.28.27:521][169]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.03-22.28.27:686][169]LogExit: Preparing to exit.
+[2017.01.03-22.28.29:640][169]LogDirectoryWatcher: A directory notification for 'C:/Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/' was aborted.
+[2017.01.03-22.28.30:185][169]LogExit: Editor shut down
+[2017.01.03-22.28.30:189][169]LogExit: Transaction tracking system shut down
+[2017.01.03-22.28.31:956][169]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.03-22.28.31:958][169]LogExit: Object subsystem successfully closed.
+[2017.01.03-22.28.32:146][169]LogD3D11RHI: Shutdown
+[2017.01.03-22.28.32:174][169]LogD3D11RHI: CleanupD3DDevice
+[2017.01.03-22.28.32:441][169]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.03-22.28.33:073][169]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.03-22.28.33:073][169]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B59138DAF-4CF6-E560-8F13-E69CF96F94A3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.1-3224400%2B%2B%2BUE4%2BRelease-4.14&UserID=ab9acab94334d5f710a54cbfa25fc1a4%7Cc7f6094eb3ad460f959390b87270b72f%7C5446ab81-9953-46ca-9929-c4170282f342&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.03-22.28.33:159][169]LogModuleManager: Shutting down and abandoning module SequencerWidgets (245)
+[2017.01.03-22.28.33:163][169]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2017.01.03-22.28.33:163][169]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2017.01.03-22.28.33:178][169]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2017.01.03-22.28.33:178][169]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.01.03-22.28.33:188][169]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.01.03-22.28.33:188][169]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.01.03-22.28.33:188][169]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.01.03-22.28.33:188][169]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.01.03-22.28.33:200][169]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.03-22.28.33:215][169]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.01.03-22.28.33:215][169]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.01.03-22.28.33:215][169]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.01.03-22.28.33:221][169]LogDirectoryWatcher: A directory notification for 'C:/Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Collections/' was aborted.
+[2017.01.03-22.28.33:221][169]LogDirectoryWatcher: A directory notification for 'C:/Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/Developers/jgagn000/Collections/' was aborted.
+[2017.01.03-22.28.33:221][169]LogDirectoryWatcher: A directory notification for 'C:/Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Saved/Collections/' was aborted.
+[2017.01.03-22.28.33:221][169]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.01.03-22.28.33:228][169]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.01.03-22.28.33:238][169]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.01.03-22.28.33:254][169]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.01.03-22.28.33:254][169]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.01.03-22.28.33:254][169]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.01.03-22.28.33:254][169]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.01.03-22.28.33:254][169]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.01.03-22.28.33:264][169]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.01.03-22.28.33:264][169]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.01.03-22.28.33:264][169]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.01.03-22.28.33:270][169]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.01.03-22.28.33:279][169]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.01.03-22.28.33:301][169]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.01.03-22.28.33:325][169]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.01.03-22.28.33:372][169]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.01.03-22.28.33:372][169]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.01.03-22.28.33:372][169]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.01.03-22.28.33:372][169]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.01.03-22.28.33:372][169]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.01.03-22.28.33:372][169]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.01.03-22.28.33:384][169]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.01.03-22.28.33:393][169]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.01.03-22.28.33:404][169]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.01.03-22.28.33:404][169]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.01.03-22.28.33:408][169]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.01.03-22.28.33:408][169]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.01.03-22.28.33:712][169]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.01.03-22.28.33:761][169]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.01.03-22.28.33:761][169]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.01.03-22.28.33:761][169]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.01.03-22.28.33:767][169]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.01.03-22.28.33:792][169]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.01.03-22.28.33:802][169]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.01.03-22.28.33:815][169]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.01.03-22.28.33:829][169]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.01.03-22.28.33:829][169]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.01.03-22.28.33:836][169]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.01.03-22.28.33:881][169]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.01.03-22.28.33:891][169]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.01.03-22.28.33:900][169]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.01.03-22.28.33:910][169]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.01.03-22.28.33:910][169]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.01.03-22.28.33:910][169]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.01.03-22.28.33:916][169]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.01.03-22.28.33:917][169]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.01.03-22.28.33:917][169]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.01.03-22.28.33:918][169]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.01.03-22.28.33:932][169]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.01.03-22.28.33:948][169]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.01.03-22.28.33:957][169]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.01.03-22.28.33:971][169]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.01.03-22.28.33:979][169]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.01.03-22.28.34:039][169]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.01.03-22.28.34:051][169]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.01.03-22.28.34:059][169]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.01.03-22.28.34:075][169]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.01.03-22.28.34:075][169]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.01.03-22.28.34:088][169]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.01.03-22.28.34:089][169]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.01.03-22.28.34:089][169]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.01.03-22.28.34:106][169]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.01.03-22.28.34:119][169]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.01.03-22.28.34:120][169]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.01.03-22.28.34:123][169]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.01.03-22.28.34:133][169]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.01.03-22.28.34:138][169]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.01.03-22.28.34:143][169]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.01.03-22.28.34:155][169]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.01.03-22.28.34:166][169]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.01.03-22.28.34:166][169]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.01.03-22.28.34:166][169]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.01.03-22.28.34:166][169]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.01.03-22.28.34:166][169]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.01.03-22.28.34:166][169]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.01.03-22.28.34:166][169]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.01.03-22.28.34:166][169]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.01.03-22.28.34:167][169]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.01.03-22.28.34:196][169]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.01.03-22.28.34:196][169]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.01.03-22.28.34:348][169]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.01.03-22.28.34:356][169]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.01.03-22.28.34:356][169]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.01.03-22.28.34:357][169]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.01.03-22.28.34:357][169]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.01.03-22.28.34:367][169]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.01.03-22.28.34:380][169]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.01.03-22.28.34:380][169]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.01.03-22.28.34:380][169]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.01.03-22.28.34:380][169]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.01.03-22.28.34:380][169]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.01.03-22.28.34:380][169]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.01.03-22.28.34:380][169]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.01.03-22.28.34:403][169]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.01.03-22.28.34:403][169]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.01.03-22.28.34:403][169]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.01.03-22.28.34:403][169]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.01.03-22.28.34:413][169]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.01.03-22.28.34:421][169]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.01.03-22.28.34:421][169]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.01.03-22.28.34:421][169]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.01.03-22.28.34:421][169]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.01.03-22.28.34:427][169]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.01.03-22.28.34:440][169]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.01.03-22.28.34:453][169]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.01.03-22.28.34:453][169]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.01.03-22.28.34:453][169]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.01.03-22.28.34:453][169]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.01.03-22.28.34:460][169]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.01.03-22.28.34:475][169]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.01.03-22.28.34:481][169]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.01.03-22.28.34:485][169]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.01.03-22.28.34:485][169]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.01.03-22.28.34:493][169]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.01.03-22.28.34:493][169]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.01.03-22.28.34:493][169]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.01.03-22.28.34:499][169]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.01.03-22.28.34:500][169]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.01.03-22.28.34:501][169]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.01.03-22.28.34:521][169]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.01.03-22.28.34:525][169]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.01.03-22.28.34:539][169]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.01.03-22.28.34:640][169]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.01.03-22.28.34:745][169]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.03-22.28.34:745][169]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.03-22.28.34:745][169]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.03-22.28.34:745][169]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.03-22.28.34:748][169]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.03-22.28.34:748][169]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.03-22.28.34:748][169]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.03-22.28.34:749][169]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.03-22.28.34:749][169]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.03-22.28.34:749][169]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.03-22.28.34:779][169]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.03-22.28.34:782][169]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.03-22.28.34:795][169]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.03-22.28.34:795][169]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.03-22.28.34:795][169]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.03-22.28.34:795][169]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.03-22.28.34:815][169]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.03-22.28.34:815][169]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.03-22.28.34:815][169]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.03-22.28.34:842][169]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.03-22.28.34:842][169]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.03-22.28.34:850][169]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.03-22.28.34:850][169]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.03-22.28.34:850][169]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.03-22.28.34:850][169]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.03-22.28.34:850][169]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.03-22.28.34:850][169]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.03-22.28.34:850][169]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.03-22.28.34:852][169]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jgagn_000/Documents/Unreal Projects/Ad_Nauseum/Content/' was aborted.
+[2017.01.03-22.28.34:854][169]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.03-22.28.34:864][169]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.03-22.28.35:165][169]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.03-22.28.35:165][169]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.03-22.28.35:166][169]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.03-22.28.35:170][169]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.03-22.28.35:180][169]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.03-22.28.35:180][169]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.03-22.28.35:190][169]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.03-22.28.35:200][169]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.03-22.28.35:247][169]LogDerivedDataCache: Shutdown
+[2017.01.03-22.28.35:248][169]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.03-22.28.35:256][169]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.03-22.28.35:266][169]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.03-22.28.35:266][169]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.03-22.28.35:276][169]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.03-22.28.35:276][169]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.03-22.28.35:276][169]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.03-22.28.35:276][169]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.03-22.28.35:301][169]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.03-22.28.35:301][169]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.03-22.28.35:301][169]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.03-22.28.35:301][169]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.03-22.28.35:316][169]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.03-22.28.35:316][169]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.03-22.28.35:316][169]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.03-22.28.35:316][169]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.03-22.28.35:316][169]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.03-22.28.35:317][169]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.03-22.28.35:318][169]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.03-22.28.35:319][169]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.03-22.28.35:331][169]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.03-22.28.35:331][169]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.03-22.28.35:331][169]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.03-22.28.35:331][169]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.03-22.28.35:344][169]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.03-22.28.35:362][169]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.03-22.28.35:362][169]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.03-22.28.35:368][169]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.03-22.28.35:388][169]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.03-22.28.35:388][169]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.03-22.28.35:388][169]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.03-22.28.35:440][169]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.03-22.28.35:456][169]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.03-22.28.35:456][169]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.03-22.28.35:466][169]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.03-22.28.35:483][169]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.03-22.28.35:484][169]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.03-22.28.35:484][169]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.03-22.28.35:492][169]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.03-22.28.35:492][169]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.03-22.28.35:492][169]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.03-22.28.35:517][169]LogExit: Exiting.
+[2017.01.03-22.28.35:544][169]Log file closed, 01/03/17 17:28:35
