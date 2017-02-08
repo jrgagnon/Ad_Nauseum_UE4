@@ -20283,3 +20283,25 @@ Script call stack:
 [2017.02.08-00.26.44:335][200]LogLoad: Took 0.042495 seconds to LoadMap(/Game/Ad_Nauseum/Levels/UEDPIE_0_Level_2)
 [2017.02.08-00.27.02:028][975]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_2
 [2017.02.08-00.27.02:029][975]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_2
+[2017.02.08-00.27.02:048][975]Cmd: MEM
+[2017.02.08-00.27.02:064][975]LogMemory: Platform Memory Stats for Windows
+[2017.02.08-00.27.02:064][975]LogMemory: Process Physical Memory: 1708.46 MB used, 1805.62 MB peak
+[2017.02.08-00.27.02:064][975]LogMemory: Process Virtual Memory: 2632.44 MB used, 2845.59 MB peak
+[2017.02.08-00.27.02:064][975]LogMemory: Physical Memory: 5989.74 MB used,  10329.38 MB free, 16319.11 MB total
+[2017.02.08-00.27.02:064][975]LogMemory: Virtual Memory: 3441.87 MB used,  10329.38 MB free, 134217728.00 MB total
+[2017.02.08-00.27.02:064][975]LogMemory: 
+[2017.02.08-00.27.02:064][975]Allocator Stats for TBB: (not implemented)
+[2017.02.08-00.27.02:064][975]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_2
+[2017.02.08-00.27.02:065][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000840s)
+[2017.02.08-00.27.02:066][975]LogAIModule: Creating AISystem for world Level_2
+[2017.02.08-00.27.02:066][975]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2017.02.08-00.27.02:066][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_2.Level_2 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_2.Level_2 (0.001551s)
+[2017.02.08-00.27.02:066][975]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.08-00.27.02:069][975]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 0) at 2017.02.07-19.27.02
+[2017.02.08-00.27.02:069][975]LogWorld: Bringing up level for play took: 0.002075
+[2017.02.08-00.27.02:071][975]LogLoad: Took 0.042797 seconds to LoadMap(/Game/Ad_Nauseum/Levels/UEDPIE_0_Level_2)
+[2017.02.08-00.36.53:920][ 38]LogSavePackage: Save=21.43ms
+[2017.02.08-00.36.53:920][ 38]LogSavePackage: Moving '../../../../../../Users/jrgagnon/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Level_2_Auto32E4FD464485118A4F6567AB3C88C0DDF.tmp' to '../../../../../../Users/jrgagnon/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/Levels/Level_2_Auto3.umap'
+[2017.02.08-00.36.53:921][ 38]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jrgagnon/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Autosaves/Game/Ad_Nauseum/Levels/Level_2_Auto3.umap
+[2017.02.08-00.36.53:923][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ad_Nauseum/Levels/Level_2' took 0.072
+[2017.02.08-00.36.53:923][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.072
