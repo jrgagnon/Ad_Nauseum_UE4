@@ -1,9 +1,9 @@
-﻿Log file open, 02/07/17 19:26:46
+﻿Log file open, 02/15/17 23:11:28
 LogInit:Display: Running engine for game: Ad_Nauseum
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1783515890) SRandInit(1783515890).
+LogInit:Display: RandInit(-443117593) SRandInit(-443117592).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.081242
+LogStats: Stats thread started at 0.079599
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -144,468 +144,693 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.02.08-00.26.46:488][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.08-00.26.46:488][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.02.08-00.26.46:502][  0]LogInit: Computer: BATTLEFRONT
-[2017.02.08-00.26.46:502][  0]LogInit: User: nlfosdic
-[2017.02.08-00.26.46:502][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.02.08-00.26.46:502][  0]LogInit: High frequency timer resolution =3.117789 MHz
-[2017.02.08-00.26.46:502][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.02.08-00.26.46:502][  0]LogMemory: Platform Memory Stats for Windows
-[2017.02.08-00.26.46:502][  0]LogMemory: Process Physical Memory: 264.59 MB used, 264.59 MB peak
-[2017.02.08-00.26.46:502][  0]LogMemory: Process Virtual Memory: 262.77 MB used, 262.77 MB peak
-[2017.02.08-00.26.46:502][  0]LogMemory: Physical Memory: 5094.65 MB used,  11224.46 MB free, 16319.11 MB total
-[2017.02.08-00.26.46:502][  0]LogMemory: Virtual Memory: 675.54 MB used,  11224.46 MB free, 134217728.00 MB total
-[2017.02.08-00.26.46:527][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.02.08-00.26.47:149][  0]LogD3D11RHI: D3D11 adapters:
-[2017.02.08-00.26.47:166][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.02.08-00.26.47:166][  0]LogD3D11RHI:       4058/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.02.08-00.26.47:168][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.02.08-00.26.47:168][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.02.08-00.26.47:168][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.02.08-00.26.47:172][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.02.08-00.26.47:172][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.02.08-00.26.47:172][  0]LogWindows: EnumDisplayDevices:
-[2017.02.08-00.26.47:172][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2017.02.08-00.26.47:172][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.02.08-00.26.47:172][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.02.08-00.26.47:173][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.02.08-00.26.47:173][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.02.08-00.26.47:173][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.02.08-00.26.47:173][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
-[2017.02.08-00.26.47:173][  0]LogD3D11RHI:      Driver Date: 8-1-2016
-[2017.02.08-00.26.47:173][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.02.08-00.26.47:185][  0]LogD3D11RHI: Async texture creation enabled
-[2017.02.08-00.26.47:194][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.02.08-00.26.47:194][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Intermediate/Shaders/WorkingDirectory/2144/).
-[2017.02.08-00.26.47:195][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nlfosdic/AppData/Local/Temp/UnrealShaderWorkingDir/7FC36DDE4B23445B6B67639E01EE33CC/'.
-[2017.02.08-00.26.47:195][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.02.08-00.26.48:197][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.02.08-00.26.48:251][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.02.08-00.26.48:303][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.02.08-00.26.48:357][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.02.08-00.26.48:411][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.02.08-00.26.48:465][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.02.08-00.26.48:521][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.02.08-00.26.48:576][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.02.08-00.26.48:620][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.02.08-00.26.48:672][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.02.08-00.26.48:731][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.02.08-00.26.48:790][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.02.08-00.26.48:844][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.02.08-00.26.48:897][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.02.08-00.26.48:948][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.02.08-00.26.49:049][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.02.08-00.26.49:049][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.02.08-00.26.49:085][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.02.08-00.26.49:166][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.02.08-00.26.49:200][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.02.08-00.26.49:251][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.02.08-00.26.49:302][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.02.08-00.26.49:352][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.02.08-00.26.49:403][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.02.08-00.26.49:403][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.02.08-00.26.49:773][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.02.08-00.26.49:823][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/nlfosdic/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.02.08-00.26.49:823][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nlfosdic/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.02.08-00.26.49:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.02.08-00.26.49:823][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.02.08-00.26.49:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.02.08-00.26.49:824][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.02.08-00.26.49:840][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.02.08-00.26.49:853][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nlfosdic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.02.08-00.26.50:053][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.08-00.26.50:056][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.02.08-00.26.50:249][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.02.08-00.26.50:288][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.02.08-00.26.50:328][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.02.08-00.26.50:328][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.02.08-00.26.50:328][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.02.08-00.26.50:809][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: ad_nauseum, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 86724054
-[2017.02.08-00.26.50:863][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
-[2017.02.08-00.26.50:907][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025177 seconds
-[2017.02.08-00.26.50:913][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.02.08-00.26.50:913][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
-[2017.02.08-00.26.50:913][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.02.08-00.26.50:969][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.02.08-00.26.51:653][  0]LogSlate: Using Freetype 2.6.0
-[2017.02.08-00.26.51:653][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.08-00.26.51:654][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.08-00.26.52:402][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.02.08-00.26.52:438][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.02.08-00.26.52:723][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.02.08-00.26.53:072][  0]SourceControl: Info Source control is disabled
-[2017.02.08-00.26.53:110][  0]SourceControl: Info Source control is disabled
-[2017.02.08-00.26.53:152][  0]SourceControl: Info Source control is disabled
-[2017.02.08-00.26.53:195][  0]SourceControl: Info Source control is disabled
-[2017.02.08-00.26.54:334][  0]LogEngine: Initializing Engine...
-[2017.02.08-00.26.54:335][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.02.08-00.26.54:562][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.02.08-00.26.54:572][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.26.54:595][  0]LogInit: FAudioDevice initialized.
-[2017.02.08-00.26.54:620][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/nlfosdic/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.02.08-00.26.54:629][  0]LogInit: Texture streaming: Enabled
-[2017.02.08-00.26.54:797][  0]LogInit: Transaction tracking system initialized
-[2017.02.08-00.26.55:116][  0]BlueprintLog: New page: Editor Load
-[2017.02.08-00.26.55:947][  0]LocalizationService: Info Localization service is disabled
-[2017.02.08-00.26.56:557][  0]LogConsoleResponse:Display: 
-[2017.02.08-00.26.56:681][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.02.08-00.26.56:681][  0]LogCook:Display: Mobile HDR setting 1
-[2017.02.08-00.26.57:124][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/' took 0.01s
-[2017.02.08-00.26.57:535][  0]SourceControl: Info Source control is disabled
-[2017.02.08-00.26.57:535][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/MenuItems/MenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.02.08-00.26.57:535][  0]LightingResults: New page: Lighting Build
-[2017.02.08-00.26.57:572][  0]MapCheck: New page: Map Check
-[2017.02.08-00.26.57:572][  0]LightingResults: New page: Lighting Build
-[2017.02.08-00.26.58:055][  0]LogAIModule: Creating AISystem for world MenuMap
-[2017.02.08-00.26.58:058][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.02.08-00.26.58:059][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.02.08-00.26.58:100][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.194ms to complete.
-[2017.02.08-00.26.58:100][  0]LogFileHelpers: Loading map 'MenuMap' took 0.566
-[2017.02.08-00.26.58:236][  0]LogCollectionManager: Loaded 0 collections in 0.001455 seconds
-[2017.02.08-00.26.58:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Collections/' took 0.01s
-[2017.02.08-00.26.58:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Developers/nlfosdic/Collections/' took 0.01s
-[2017.02.08-00.26.58:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Collections/' took 0.01s
-[2017.02.08-00.26.58:314][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.02.08-00.26.58:323][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2190 classes and 428 folders.
-[2017.02.08-00.26.58:362][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.02.08-00.26.58:362][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.02.08-00.26.58:363][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
-[2017.02.08-00.26.58:421][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.02.08-00.26.58:456][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.02.08-00.26.58:498][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.02.08-00.26.58:573][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.02.08-00.26.58:581][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.02.08-00.26.58:647][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.02.08-00.26.58:648][  0]LogLoad: (Engine Initialization) Total time: 13.51 seconds
-[2017.02.08-00.26.58:648][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
-[2017.02.08-00.26.58:648][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.02.08-00.26.58:648][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.02.08-00.26.58:987][  0]LogOcInput: OculusInput pre-init called
-[2017.02.08-00.26.58:988][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.8.0
-[2017.02.08-00.26.59:006][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.02.08-00.26.59:138][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.02.08-00.26.59:325][  1]LogAssetRegistry: Asset discovery search completed in 8.4844 seconds
-[2017.02.08-00.26.59:325][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.02.08-00.26.59:325][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2017.02.08-00.27.05:309][371]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.27.05:327][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
-[2017.02.08-00.27.05:327][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.08-00.27.05:328][371]PIE: New page: PIE session: MenuMap (Feb 7, 2017, 2:27:05 PM)
-[2017.02.08-00.27.05:328][371]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap
-[2017.02.08-00.27.05:329][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001683s)
-[2017.02.08-00.27.05:330][371]LogAIModule: Creating AISystem for world MenuMap
-[2017.02.08-00.27.05:330][371]LogPlayLevel: PIE: World Init took: (0.000632s)
-[2017.02.08-00.27.05:330][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap to /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap (0.002525s)
-[2017.02.08-00.27.05:350][371]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.27.05:357][371]LogInit: FAudioDevice initialized.
-[2017.02.08-00.27.05:420][371]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
-[2017.02.08-00.27.05:421][371]LogLinker:Warning: Can't find file '/Game/Ad_Nauseum/Blueprints/Map_GM'
-[2017.02.08-00.27.05:421][371]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Ad_Nauseum/Blueprints/Map_GM.Map_GM_C'
-[2017.02.08-00.27.05:421][371]LogLoad: Game class is 'GameModeBase'
-[2017.02.08-00.27.05:423][371]LogWorld: Bringing World /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap.MenuMap up for play (max tick rate 0) at 2017.02.07-19.27.05
-[2017.02.08-00.27.05:423][371]LogWorld: Bringing up level for play took: 0.001122
-[2017.02.08-00.27.05:461][371]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.02.08-00.27.05:468][371]PIE: Info Play in editor start time for /Game/Ad_Nauseum/MenuItems/UEDPIE_0_MenuMap -0.176
-[2017.02.08-00.27.05:468][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
-[2017.02.08-00.27.05:471][371]LogRenderer: Reallocating scene render targets to support 1208x684 NumSamples 1 (Frame:352).
-[2017.02.08-00.27.05:471][371]LogAudio:Warning: Detected orphaned looping sound 'HGD_Song_Demo_1'.
-[2017.02.08-00.27.06:218][447]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
-[2017.02.08-00.27.06:218][447]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
-[2017.02.08-00.27.06:227][447]Cmd: MEM
-[2017.02.08-00.27.06:238][447]LogMemory: Platform Memory Stats for Windows
-[2017.02.08-00.27.06:238][447]LogMemory: Process Physical Memory: 949.21 MB used, 973.20 MB peak
-[2017.02.08-00.27.06:238][447]LogMemory: Process Virtual Memory: 1299.93 MB used, 1299.93 MB peak
-[2017.02.08-00.27.06:238][447]LogMemory: Physical Memory: 4987.03 MB used,  11332.08 MB free, 16319.11 MB total
-[2017.02.08-00.27.06:238][447]LogMemory: Virtual Memory: 2048.25 MB used,  11332.08 MB free, 134217728.00 MB total
-[2017.02.08-00.27.06:238][447]LogMemory: 
-[2017.02.08-00.27.06:238][447]Allocator Stats for TBB: (not implemented)
-[2017.02.08-00.27.06:513][447]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.27.06:514][447]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.27.06:524][447]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.27.06
-[2017.02.08-00.27.06:525][447]LogWorld: Bringing up level for play took: 0.009877
-[2017.02.08-00.27.06:528][447]LogLoad: Took 0.310287 seconds to LoadMap(/Game/Ad_Nauseum/Levels/Level_1)
-[2017.02.08-00.27.12:468][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
-[2017.02.08-00.27.12:520][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap' with GeneratedClass '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap_C' with ClassGeneratedBy '/Game/Ad_Nauseum/MenuItems/MenuMap.MenuMap:PersistentLevel.MenuMap'
-[2017.02.08-00.27.21:732][167]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.27.21:755][167]Cmd: MAP LOAD FILE="../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.02.08-00.27.21:756][167]LightingResults: New page: Lighting Build
-[2017.02.08-00.27.21:756][167]LoadErrors: New page: Loading map: Level_1.umap
-[2017.02.08-00.27.21:757][167]MapCheck: New page: Map Check
-[2017.02.08-00.27.21:757][167]LightingResults: New page: Lighting Build
-[2017.02.08-00.27.21:826][167]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.02.08-00.27.21:861][167]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.02.08-00.27.21:906][167]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.077ms to complete.
-[2017.02.08-00.27.21:906][167]LogFileHelpers: Loading map 'Level_1' took 0.151
-[2017.02.08-00.27.30:978][224]LogEditorViewport: Clicking on Actor (LMB): Moving_Platform2_C (Moving_Platform3)
-[2017.02.08-00.27.49:005][369]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.27.49:021][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.27.49:021][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.08-00.27.49:021][369]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:27:49 PM)
-[2017.02.08-00.27.49:022][369]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.27.49:025][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003694s)
-[2017.02.08-00.27.49:026][369]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.27.49:026][369]LogPlayLevel: PIE: World Init took: (0.000676s)
-[2017.02.08-00.27.49:026][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004629s)
-[2017.02.08-00.27.49:060][369]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.27.49:068][369]LogInit: FAudioDevice initialized.
-[2017.02.08-00.27.49:116][369]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.27.49:120][369]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.27.49
-[2017.02.08-00.27.49:121][369]LogWorld: Bringing up level for play took: 0.003102
-[2017.02.08-00.27.49:129][369]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.515
-[2017.02.08-00.27.49:129][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.28.00:801][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.28.00:853][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.28.08:076][399]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
-[2017.02.08-00.28.17:136][111]LogSavePackage: Save=105.65ms
-[2017.02.08-00.28.17:136][111]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Level_1B01E3A074AE55E129F56E88564F4BF04.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap'
-[2017.02.08-00.28.17:140][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap
-[2017.02.08-00.29.41:840][354]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.29.41:864][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.29.41:864][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.08-00.29.41:865][354]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:29:41 PM)
-[2017.02.08-00.29.41:865][354]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.29.41:868][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003586s)
-[2017.02.08-00.29.41:869][354]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.29.41:869][354]LogPlayLevel: PIE: World Init took: (0.000630s)
-[2017.02.08-00.29.41:869][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004479s)
-[2017.02.08-00.29.41:890][354]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.29.41:897][354]LogInit: FAudioDevice initialized.
-[2017.02.08-00.29.41:942][354]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.29.41:945][354]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.29.41
-[2017.02.08-00.29.41:946][354]LogWorld: Bringing up level for play took: 0.003196
-[2017.02.08-00.29.41:953][354]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.311
-[2017.02.08-00.29.41:954][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.30.01:165][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.30.01:220][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.30.02:513][454]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.30.02:530][454]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.30.02:530][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.08-00.30.02:530][454]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:30:02 PM)
-[2017.02.08-00.30.02:530][454]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.30.02:535][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004421s)
-[2017.02.08-00.30.02:535][454]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.30.02:536][454]LogPlayLevel: PIE: World Init took: (0.000829s)
-[2017.02.08-00.30.02:536][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.005498s)
-[2017.02.08-00.30.02:557][454]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.30.02:564][454]LogInit: FAudioDevice initialized.
-[2017.02.08-00.30.02:615][454]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.30.02:619][454]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.30.02
-[2017.02.08-00.30.02:619][454]LogWorld: Bringing up level for play took: 0.003095
-[2017.02.08-00.30.02:627][454]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.985
-[2017.02.08-00.30.02:627][454]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.30.07:020][898]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
-[2017.02.08-00.30.07:020][898]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
-[2017.02.08-00.30.07:036][898]Cmd: MEM
-[2017.02.08-00.30.07:048][898]LogMemory: Platform Memory Stats for Windows
-[2017.02.08-00.30.07:048][898]LogMemory: Process Physical Memory: 1290.05 MB used, 1293.89 MB peak
-[2017.02.08-00.30.07:048][898]LogMemory: Process Virtual Memory: 1521.35 MB used, 1570.40 MB peak
-[2017.02.08-00.30.07:048][898]LogMemory: Physical Memory: 5292.15 MB used,  11026.96 MB free, 16319.11 MB total
-[2017.02.08-00.30.07:048][898]LogMemory: Virtual Memory: 2353.32 MB used,  11026.96 MB free, 134217728.00 MB total
-[2017.02.08-00.30.07:048][898]LogMemory: 
-[2017.02.08-00.30.07:048][898]Allocator Stats for TBB: (not implemented)
-[2017.02.08-00.30.07:048][898]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.30.07:052][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003339s)
-[2017.02.08-00.30.07:052][898]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.30.07:052][898]LogPlayLevel: PIE: World Init took: (0.000546s)
-[2017.02.08-00.30.07:053][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004077s)
-[2017.02.08-00.30.07:053][898]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.30.07:056][898]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.30.07
-[2017.02.08-00.30.07:057][898]LogWorld: Bringing up level for play took: 0.002913
-[2017.02.08-00.30.07:060][898]LogLoad: Took 0.039508 seconds to LoadMap(/Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1)
-[2017.02.08-00.30.29:732][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.30.29:789][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.31.10:328][947]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.31.10:347][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.31.10:347][947]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.08-00.31.10:347][947]LogPlayLevel: [PlayLevel] Compiling BlueBullet before play...
-[2017.02.08-00.31.10:506][947]LogPlayLevel: PlayLevel: Blueprint regeneration took 158 ms (1 blueprints)
-[2017.02.08-00.31.10:507][947]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:31:10 PM)
-[2017.02.08-00.31.10:507][947]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.31.10:510][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003242s)
-[2017.02.08-00.31.10:510][947]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.31.10:510][947]LogPlayLevel: PIE: World Init took: (0.000472s)
-[2017.02.08-00.31.10:511][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.003918s)
-[2017.02.08-00.31.10:531][947]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.31.10:538][947]LogInit: FAudioDevice initialized.
-[2017.02.08-00.31.10:583][947]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.31.10:587][947]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.31.10
-[2017.02.08-00.31.10:588][947]LogWorld: Bringing up level for play took: 0.003242
-[2017.02.08-00.31.10:593][947]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.953
-[2017.02.08-00.31.10:594][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.31.25:538][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.31.25:597][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.31.43:457][867]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.31.43:475][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.31.43:476][867]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.08-00.31.43:476][867]LogPlayLevel: [PlayLevel] Compiling BlueBullet before play...
-[2017.02.08-00.31.43:568][867]LogPlayLevel: PlayLevel: Blueprint regeneration took 92 ms (1 blueprints)
-[2017.02.08-00.31.43:569][867]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:31:43 PM)
-[2017.02.08-00.31.43:569][867]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.31.43:572][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003429s)
-[2017.02.08-00.31.43:572][867]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.31.43:573][867]LogPlayLevel: PIE: World Init took: (0.000519s)
-[2017.02.08-00.31.43:573][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004156s)
-[2017.02.08-00.31.43:593][867]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.31.43:600][867]LogInit: FAudioDevice initialized.
-[2017.02.08-00.31.43:641][867]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.31.43:644][867]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.31.43
-[2017.02.08-00.31.43:645][867]LogWorld: Bringing up level for play took: 0.003031
-[2017.02.08-00.31.43:650][867]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.01
-[2017.02.08-00.31.43:651][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.31.58:690][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.31.58:752][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.32.13:472][426]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.32.13:487][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.32.13:487][426]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.08-00.32.13:487][426]LogPlayLevel: [PlayLevel] Compiling BlueBullet before play...
-[2017.02.08-00.32.13:576][426]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
-[2017.02.08-00.32.13:576][426]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:32:13 PM)
-[2017.02.08-00.32.13:576][426]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.32.13:580][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003289s)
-[2017.02.08-00.32.13:580][426]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.32.13:580][426]LogPlayLevel: PIE: World Init took: (0.000506s)
-[2017.02.08-00.32.13:580][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.003993s)
-[2017.02.08-00.32.13:601][426]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.32.13:608][426]LogInit: FAudioDevice initialized.
-[2017.02.08-00.32.13:653][426]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.32.13:657][426]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.32.13
-[2017.02.08-00.32.13:658][426]LogWorld: Bringing up level for play took: 0.003434
-[2017.02.08-00.32.13:663][426]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.023
-[2017.02.08-00.32.13:663][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.32.17:932][931]LogNet: Browse: /Game/Ad_Nauseum/Levels/Level_1
-[2017.02.08-00.32.17:932][931]LogLoad: LoadMap: /Game/Ad_Nauseum/Levels/Level_1
-[2017.02.08-00.32.17:948][931]Cmd: MEM
-[2017.02.08-00.32.17:961][931]LogMemory: Platform Memory Stats for Windows
-[2017.02.08-00.32.17:961][931]LogMemory: Process Physical Memory: 1279.95 MB used, 1293.89 MB peak
-[2017.02.08-00.32.17:961][931]LogMemory: Process Virtual Memory: 1628.27 MB used, 1637.28 MB peak
-[2017.02.08-00.32.17:961][931]LogMemory: Physical Memory: 5280.17 MB used,  11038.94 MB free, 16319.11 MB total
-[2017.02.08-00.32.17:961][931]LogMemory: Virtual Memory: 2429.32 MB used,  11038.94 MB free, 134217728.00 MB total
-[2017.02.08-00.32.17:961][931]LogMemory: 
-[2017.02.08-00.32.17:961][931]Allocator Stats for TBB: (not implemented)
-[2017.02.08-00.32.17:961][931]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.32.17:965][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003214s)
-[2017.02.08-00.32.17:965][931]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.32.17:965][931]LogPlayLevel: PIE: World Init took: (0.000482s)
-[2017.02.08-00.32.17:965][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.003914s)
-[2017.02.08-00.32.17:965][931]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.32.17:969][931]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.32.17
-[2017.02.08-00.32.17:969][931]LogWorld: Bringing up level for play took: 0.002394
-[2017.02.08-00.32.17:973][931]LogLoad: Took 0.041077 seconds to LoadMap(/Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1)
-[2017.02.08-00.32.23:431][586]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
-[2017.02.08-00.32.29:431][306]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
-[2017.02.08-00.32.34:064][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.32.34:122][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.32.42:856][901]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.32.42:874][901]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.32.42:875][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.08-00.32.42:875][901]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:32:42 PM)
-[2017.02.08-00.32.42:875][901]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.32.42:879][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004037s)
-[2017.02.08-00.32.42:879][901]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.32.42:879][901]LogPlayLevel: PIE: World Init took: (0.000524s)
-[2017.02.08-00.32.42:880][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004782s)
-[2017.02.08-00.32.42:899][901]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.32.42:906][901]LogInit: FAudioDevice initialized.
-[2017.02.08-00.32.42:944][901]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.32.42:948][901]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.32.42
-[2017.02.08-00.32.42:949][901]LogWorld: Bringing up level for play took: 0.003279
-[2017.02.08-00.32.42:953][901]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.686
-[2017.02.08-00.32.42:954][901]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.32.55:863][446]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.32.55:921][446]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.33.39:025][570]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.33.39:044][570]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.33.39:044][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.02.08-00.33.39:044][570]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:33:39 PM)
-[2017.02.08-00.33.39:044][570]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.33.39:049][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004566s)
-[2017.02.08-00.33.39:049][570]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.33.39:049][570]LogPlayLevel: PIE: World Init took: (0.000658s)
-[2017.02.08-00.33.39:049][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.005423s)
-[2017.02.08-00.33.39:072][570]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.33.39:080][570]LogInit: FAudioDevice initialized.
-[2017.02.08-00.33.39:130][570]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.33.39:134][570]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.33.39
-[2017.02.08-00.33.39:135][570]LogWorld: Bringing up level for play took: 0.003564
-[2017.02.08-00.33.39:142][570]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.496
-[2017.02.08-00.33.39:143][570]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.33.44:542][122]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
-[2017.02.08-00.33.54:842][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.33.54:901][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.34.05:562][473]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.34.05:582][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.34.05:582][473]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.08-00.34.05:582][473]LogPlayLevel: [PlayLevel] Compiling BlueBullet before play...
-[2017.02.08-00.34.05:590][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning 'Moving Platform 2' does not inherit from 'Paper Tile Map Actor' ( K2Node_DynamicCast_8  would always fail).
-[2017.02.08-00.34.05:590][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning 'Moving Platform' does not inherit from 'Paper Tile Map Actor' ( K2Node_DynamicCast_7  would always fail).
-[2017.02.08-00.34.05:590][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning 'Breaking Platform' does not inherit from 'Paper Tile Map Actor' ( K2Node_DynamicCast_6  would always fail).
-[2017.02.08-00.34.05:594][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning [0440.46] Compile of BlueBullet successful, but with 3 Warning(s) [in 7 ms] (/Game/Ad_Nauseum/Blueprints/Weapons/BlueBullet.BlueBullet)
-[2017.02.08-00.34.05:595][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning [0440.46] Compile of BlueBullet successful, but with 4 Warning(s) [in 1 ms] (/Game/Ad_Nauseum/Blueprints/Weapons/BlueBullet.BlueBullet)
-[2017.02.08-00.34.05:596][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning [0440.47] Compile of BlueBullet successful, but with 5 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Weapons/BlueBullet.BlueBullet)
-[2017.02.08-00.34.05:597][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning 'Moving Platform 2' does not inherit from 'Paper Tile Map Actor' ( K2Node_DynamicCast_8  would always fail).
-[2017.02.08-00.34.05:597][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning 'Moving Platform' does not inherit from 'Paper Tile Map Actor' ( K2Node_DynamicCast_7  would always fail).
-[2017.02.08-00.34.05:598][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning 'Breaking Platform' does not inherit from 'Paper Tile Map Actor' ( K2Node_DynamicCast_6  would always fail).
-[2017.02.08-00.34.05:716][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning [0440.59] Compile of BlueBullet successful, but with 6 Warning(s) [in 120 ms] (/Game/Ad_Nauseum/Blueprints/Weapons/BlueBullet.BlueBullet)
-[2017.02.08-00.34.05:718][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning [0440.59] Compile of BlueBullet successful, but with 7 Warning(s) [in 2 ms] (/Game/Ad_Nauseum/Blueprints/Weapons/BlueBullet.BlueBullet)
-[2017.02.08-00.34.05:718][473]LogBlueprint:Warning: [Compiler BlueBullet] Warning [0440.59] Compile of BlueBullet successful, but with 8 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Weapons/BlueBullet.BlueBullet)
-[2017.02.08-00.34.05:733][473]LogPlayLevel: PlayLevel: Blueprint regeneration took 150 ms (1 blueprints)
-[2017.02.08-00.34.05:733][473]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:34:05 PM)
-[2017.02.08-00.34.05:733][473]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.34.05:737][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003372s)
-[2017.02.08-00.34.05:737][473]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.34.05:737][473]LogPlayLevel: PIE: World Init took: (0.000473s)
-[2017.02.08-00.34.05:737][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004018s)
-[2017.02.08-00.34.05:758][473]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.34.05:765][473]LogInit: FAudioDevice initialized.
-[2017.02.08-00.34.05:808][473]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.34.05:812][473]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.34.05
-[2017.02.08-00.34.05:813][473]LogWorld: Bringing up level for play took: 0.003245
-[2017.02.08-00.34.05:819][473]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.181
-[2017.02.08-00.34.05:819][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.34.23:161][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.34.23:219][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.34.43:549][979]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.02.08-00.34.43:569][979]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.34.43:569][979]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.02.08-00.34.43:569][979]LogPlayLevel: [PlayLevel] Compiling BlueBullet before play...
-[2017.02.08-00.34.43:661][979]LogPlayLevel: PlayLevel: Blueprint regeneration took 92 ms (1 blueprints)
-[2017.02.08-00.34.43:661][979]PIE: New page: PIE session: Level_1 (Feb 7, 2017, 2:34:43 PM)
-[2017.02.08-00.34.43:661][979]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
-[2017.02.08-00.34.43:665][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003490s)
-[2017.02.08-00.34.43:665][979]LogAIModule: Creating AISystem for world Level_1
-[2017.02.08-00.34.43:665][979]LogPlayLevel: PIE: World Init took: (0.000488s)
-[2017.02.08-00.34.43:666][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004197s)
-[2017.02.08-00.34.43:686][979]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.02.08-00.34.43:693][979]LogInit: FAudioDevice initialized.
-[2017.02.08-00.34.43:739][979]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
-[2017.02.08-00.34.43:743][979]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.07-19.34.43
-[2017.02.08-00.34.43:744][979]LogWorld: Bringing up level for play took: 0.003456
-[2017.02.08-00.34.43:749][979]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.112
-[2017.02.08-00.34.43:749][979]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.35.01:878][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.35.01:934][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
-[2017.02.08-00.35.03:438][315]LogSavePackage: Save=15.74ms
-[2017.02.08-00.35.03:438][315]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/BlueBulletE88A0F0140EC2E37A58F6A95CD38A3D1.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Weapons/BlueBullet.uasset'
-[2017.02.08-00.35.03:440][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Weapons/BlueBullet.uasset
-[2017.02.08-00.35.15:615][711]BlueprintLog: New page: Compile Breaking_Platform
-[2017.02.08-00.35.23:212][558]LogEditorViewport: Clicking Background
-[2017.02.08-00.35.23:868][636]LogEditorViewport: Clicking on Actor (LMB): Breaking_Platform_C (Breaking_Platform)
-[2017.02.08-00.35.24:650][728]Cmd: DELETE
-[2017.02.08-00.35.24:650][728]Cmd: ACTOR DELETE
-[2017.02.08-00.35.24:650][728]LogEditorActor: Deleted Actor: Breaking_Platform_C
-[2017.02.08-00.35.24:665][728]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2017.02.08-00.35.24:968][764]LogEditorViewport: Clicking on Actor (LMB): Moving_Platform_C (Moving_Platform)
-[2017.02.08-00.35.25:307][803]Cmd: DELETE
-[2017.02.08-00.35.25:307][803]Cmd: ACTOR DELETE
-[2017.02.08-00.35.25:307][803]LogEditorActor: Deleted Actor: Moving_Platform_C
-[2017.02.08-00.35.25:321][803]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.02.08-00.35.25:765][856]LogEditorViewport: Clicking on Actor (LMB): Moving_Platform_C (Moving_Platform2)
-[2017.02.08-00.35.26:129][898]Cmd: DELETE
-[2017.02.08-00.35.26:129][898]Cmd: ACTOR DELETE
-[2017.02.08-00.35.26:130][898]LogEditorActor: Deleted Actor: Moving_Platform_C
-[2017.02.08-00.35.26:143][898]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2017.02.08-00.35.26:553][947]LogEditorViewport: Clicking on Actor (LMB): Moving_Platform2_C (Moving_Platform3)
-[2017.02.08-00.35.27:042][  4]Cmd: DELETE
-[2017.02.08-00.35.27:042][  4]Cmd: ACTOR DELETE
-[2017.02.08-00.35.27:043][  4]LogEditorActor: Deleted Actor: Moving_Platform2_C
+[2017.02.16-04.11.29:157][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.16-04.11.29:157][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.16-04.11.29:176][  0]LogInit: Computer: BATTLEFRONT
+[2017.02.16-04.11.29:176][  0]LogInit: User: nlfosdic
+[2017.02.16-04.11.29:176][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.16-04.11.29:176][  0]LogInit: High frequency timer resolution =3.117781 MHz
+[2017.02.16-04.11.29:177][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.16-04.11.29:177][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.16-04.11.29:177][  0]LogMemory: Process Physical Memory: 264.52 MB used, 264.52 MB peak
+[2017.02.16-04.11.29:177][  0]LogMemory: Process Virtual Memory: 262.66 MB used, 262.66 MB peak
+[2017.02.16-04.11.29:177][  0]LogMemory: Physical Memory: 3675.04 MB used,  12644.08 MB free, 16319.11 MB total
+[2017.02.16-04.11.29:177][  0]LogMemory: Virtual Memory: 675.54 MB used,  12644.08 MB free, 134217728.00 MB total
+[2017.02.16-04.11.29:205][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.16-04.11.29:802][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.16-04.11.29:829][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.02.16-04.11.29:829][  0]LogD3D11RHI:       4058/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.02.16-04.11.29:831][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.16-04.11.29:831][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.16-04.11.29:831][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.16-04.11.29:835][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.16-04.11.29:835][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.16-04.11.29:835][  0]LogWindows: EnumDisplayDevices:
+[2017.02.16-04.11.29:835][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.02.16-04.11.29:835][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.02.16-04.11.29:835][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.02.16-04.11.29:835][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.02.16-04.11.29:835][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.16-04.11.29:835][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.02.16-04.11.29:835][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2017.02.16-04.11.29:835][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.02.16-04.11.29:835][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.16-04.11.29:848][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.16-04.11.29:858][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.02.16-04.11.29:858][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Intermediate/Shaders/WorkingDirectory/4720/).
+[2017.02.16-04.11.29:859][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nlfosdic/AppData/Local/Temp/UnrealShaderWorkingDir/17024E35404D429898AD958CC600A25C/'.
+[2017.02.16-04.11.29:859][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.16-04.11.30:909][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.16-04.11.30:965][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.16-04.11.31:021][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.16-04.11.31:073][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.16-04.11.31:132][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.16-04.11.31:192][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.16-04.11.31:249][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.16-04.11.31:304][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.16-04.11.31:348][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.16-04.11.31:402][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.16-04.11.31:454][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.16-04.11.31:506][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.16-04.11.31:561][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.16-04.11.31:615][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.16-04.11.31:666][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.16-04.11.31:771][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.16-04.11.31:771][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.16-04.11.31:808][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.16-04.11.31:893][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.16-04.11.31:926][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.16-04.11.31:976][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.16-04.11.32:028][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.16-04.11.32:080][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.16-04.11.32:133][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.16-04.11.32:133][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.16-04.11.32:476][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.16-04.11.32:525][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/nlfosdic/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.16-04.11.32:525][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nlfosdic/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.16-04.11.32:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.16-04.11.32:525][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.16-04.11.32:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.16-04.11.32:525][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.16-04.11.32:542][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.16-04.11.32:554][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nlfosdic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.16-04.11.32:747][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.16-04.11.32:750][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.16-04.11.32:939][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.16-04.11.32:977][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.16-04.11.33:018][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.16-04.11.33:018][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.16-04.11.33:018][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.16-04.11.33:506][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: ad_nauseum, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 86724054
+[2017.02.16-04.11.33:560][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.02.16-04.11.33:611][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.031162 seconds
+[2017.02.16-04.11.33:617][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.16-04.11.33:617][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.02.16-04.11.33:617][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.16-04.11.33:673][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.16-04.11.34:378][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.16-04.11.34:378][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.16-04.11.34:378][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.16-04.11.35:113][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.16-04.11.35:151][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.16-04.11.35:443][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.16-04.11.35:807][  0]SourceControl: Info Source control is disabled
+[2017.02.16-04.11.35:850][  0]SourceControl: Info Source control is disabled
+[2017.02.16-04.11.35:907][  0]SourceControl: Info Source control is disabled
+[2017.02.16-04.11.35:949][  0]SourceControl: Info Source control is disabled
+[2017.02.16-04.11.37:109][  0]LogEngine: Initializing Engine...
+[2017.02.16-04.11.37:110][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.16-04.11.37:344][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.16-04.11.37:354][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.11.37:362][  0]LogInit: FAudioDevice initialized.
+[2017.02.16-04.11.37:388][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/nlfosdic/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.16-04.11.37:397][  0]LogInit: Texture streaming: Enabled
+[2017.02.16-04.11.37:561][  0]LogInit: Transaction tracking system initialized
+[2017.02.16-04.11.37:866][  0]BlueprintLog: New page: Editor Load
+[2017.02.16-04.11.38:662][  0]LocalizationService: Info Localization service is disabled
+[2017.02.16-04.11.39:259][  0]LogConsoleResponse:Display: 
+[2017.02.16-04.11.39:387][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.16-04.11.39:387][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.16-04.11.39:833][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/' took 0.02s
+[2017.02.16-04.11.40:260][  0]SourceControl: Info Source control is disabled
+[2017.02.16-04.11.40:260][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/MenuItems/MenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.16-04.11.40:267][  0]LightingResults: New page: Lighting Build
+[2017.02.16-04.11.40:304][  0]MapCheck: New page: Map Check
+[2017.02.16-04.11.40:305][  0]LightingResults: New page: Lighting Build
+[2017.02.16-04.11.41:144][  0]LogAIModule: Creating AISystem for world MenuMap
+[2017.02.16-04.11.41:147][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.16-04.11.41:148][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.16-04.11.41:194][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.285ms to complete.
+[2017.02.16-04.11.41:194][  0]LogFileHelpers: Loading map 'MenuMap' took 0.934
+[2017.02.16-04.11.41:341][  0]LogCollectionManager: Loaded 0 collections in 0.001667 seconds
+[2017.02.16-04.11.41:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Collections/' took 0.01s
+[2017.02.16-04.11.41:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Developers/nlfosdic/Collections/' took 0.01s
+[2017.02.16-04.11.41:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Collections/' took 0.01s
+[2017.02.16-04.11.41:418][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.02.16-04.11.41:427][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2190 classes and 428 folders.
+[2017.02.16-04.11.41:467][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.16-04.11.41:467][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.16-04.11.41:468][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2017.02.16-04.11.41:526][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.02.16-04.11.41:810][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.02.16-04.11.41:874][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.02.16-04.11.41:970][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.16-04.11.41:978][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.16-04.11.42:043][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.02.16-04.11.42:043][  0]LogLoad: (Engine Initialization) Total time: 14.31 seconds
+[2017.02.16-04.11.42:043][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.28 seconds
+[2017.02.16-04.11.42:043][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.16-04.11.42:043][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.16-04.11.42:382][  0]LogOcInput: OculusInput pre-init called
+[2017.02.16-04.11.42:383][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.8.0
+[2017.02.16-04.11.42:402][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.16-04.11.42:573][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.02.16-04.11.42:723][  1]LogAssetRegistry: Asset discovery search completed in 9.1862 seconds
+[2017.02.16-04.11.42:723][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.16-04.11.42:723][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.02.16-04.12.11:119][566]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 111 classes and 0 folders.
+[2017.02.16-04.12.51:845][737]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:2903).
+[2017.02.16-04.14.24:839][933]LogBlueprint:Warning: [Breaking_Wall] 'currentHealth' variable not found. Base class was probably changed.
+[2017.02.16-04.14.24:839][933]LogBlueprint:Warning: [Breaking_Wall] 'currentHealth' variable not found. Base class was probably changed.
+[2017.02.16-04.14.24:839][933]LogBlueprint:Warning: [Breaking_Wall] 'currentHealth' variable not found. Base class was probably changed.
+[2017.02.16-04.16.29:073][771]LogEditorTransaction: Undo Resize Node
+[2017.02.16-04.16.58:656][305]LogSavePackage: Save=24.48ms
+[2017.02.16-04.16.58:656][305]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Breaking_Wall2D7D40394B472ED1714856AA95490F41.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset'
+[2017.02.16-04.16.58:661][305]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset
+[2017.02.16-04.17.46:113][961]LogBlueprint:Warning: [Breaking_Wall] 'currentHealth' variable not found. Base class was probably changed.
+[2017.02.16-04.17.46:113][961]LogBlueprint:Warning: [Breaking_Wall] 'currentHealth' variable not found. Base class was probably changed.
+[2017.02.16-04.17.46:115][961]LogBlueprint:Warning: [Breaking_Wall] 'maxHealth' variable not found. Base class was probably changed.
+[2017.02.16-04.18.04:659][161]LogEditorTransaction: Undo Delete current selection
+[2017.02.16-04.18.07:840][537]LogEditorTransaction: Undo Remove Variable
+[2017.02.16-04.20.03:217][311]LogSavePackage: Save=24.60ms
+[2017.02.16-04.20.03:217][311]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Breaking_Wall9287C3F045E790A7193AB383E0DBF354.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset'
+[2017.02.16-04.20.03:220][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset
+[2017.02.16-04.20.06:812][732]LogSavePackage: Save=37.49ms
+[2017.02.16-04.20.06:812][732]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/MushroomPatrol8DF2E2964B08EEC4BDF39A9FA7CAEC50.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol.uasset'
+[2017.02.16-04.20.06:815][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol.uasset
+[2017.02.16-04.20.57:721][425]LogSavePackage: Save=22.46ms
+[2017.02.16-04.20.57:722][425]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Breaking_Wall494A0B4947D9848966A271BDD838C1C6.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset'
+[2017.02.16-04.20.57:724][425]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset
+[2017.02.16-04.21.06:281][401]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.21.06:334][401]Cmd: MAP LOAD FILE="../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.16-04.21.06:334][401]LightingResults: New page: Lighting Build
+[2017.02.16-04.21.06:335][401]LoadErrors: New page: Loading map: Level_1.umap
+[2017.02.16-04.21.06:336][401]MapCheck: New page: Map Check
+[2017.02.16-04.21.06:336][401]LightingResults: New page: Lighting Build
+[2017.02.16-04.21.06:435][401]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.16-04.21.06:479][401]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.16-04.21.06:540][401]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.4ms to complete.
+[2017.02.16-04.21.06:541][401]LogFileHelpers: Loading map 'Level_1' took 0.209
+[2017.02.16-04.21.19:643][850]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.21.19:679][850]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.21.19:679][850]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.21.19:679][850]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.21.19:689][850]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning Could not find a variable named "currentHealth" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableSet_65
+[2017.02.16-04.21.19:689][850]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning Could not find a variable named "currentHealth" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableSet_40
+[2017.02.16-04.21.19:690][850]LogBlueprint:Error: [Compiler Breaking_Wall] Error The property associated with  currentHealth  could not be found
+[2017.02.16-04.21.19:690][850]LogBlueprint:Error: [Compiler Breaking_Wall] Error The property associated with  currentHealth  could not be found
+[2017.02.16-04.21.19:969][850]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [0592.61] Compile of Breaking_Wall failed. 2 Fatal Issue(s) 2 Warning(s) [in 283 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.21.19:969][850]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [0592.61] Compile of Breaking_Wall failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.21.19:969][850]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [0592.61] Compile of Breaking_Wall failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.21.19:969][850]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [0592.61] Compile of Breaking_Wall failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.21.19:972][850]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [0592.61] Compile of Breaking_Wall failed. 2 Fatal Issue(s) 6 Warning(s) [in 3 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.21.19:972][850]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [0592.61] Compile of Breaking_Wall failed. 2 Fatal Issue(s) 7 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.21.19:972][850]LogPlayLevel: [PlayLevel] Compiling MushroomPatrol before play...
+[2017.02.16-04.21.20:100][850]LogPlayLevel: PlayLevel: Blueprint regeneration took 420 ms (2 blueprints)
+[2017.02.16-04.21.20:100][850]BlueprintLog: Info Blueprint Breaking_Wall failed to compile
+[2017.02.16-04.21.23:584][ 63]BlueprintLog: New page: Compile Breaking_Wall
+[2017.02.16-04.21.23:594][ 63]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning Could not find a variable named "currentHealth" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableSet_65
+[2017.02.16-04.21.23:594][ 63]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning Could not find a variable named "currentHealth" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableSet_40
+[2017.02.16-04.21.23:595][ 63]LogBlueprint:Error: [Compiler Breaking_Wall] Error The property associated with  currentHealth  could not be found
+[2017.02.16-04.21.23:595][ 63]LogBlueprint:Error: [Compiler Breaking_Wall] Error The property associated with  currentHealth  could not be found
+[2017.02.16-04.21.23:766][ 63]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "currentHealth" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableSet_65
+[2017.02.16-04.21.23:766][ 63]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "currentHealth" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableSet_40
+[2017.02.16-04.21.23:766][ 63]BlueprintEditorCompileResults:Error: Error The property associated with  currentHealth  could not be found
+[2017.02.16-04.21.23:766][ 63]BlueprintEditorCompileResults:Error: Error The property associated with  currentHealth  could not be found
+[2017.02.16-04.21.23:766][ 63]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [0596.41] Compile of Breaking_Wall failed. 2 Fatal Issue(s) 2 Warning(s) [in 182 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.21.46:427][748]BlueprintLog: New page: Compile Breaking_Wall
+[2017.02.16-04.21.49:183][ 47]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.21.49:201][ 47]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.21.49:201][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.21.49:202][ 47]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:21:49 PM)
+[2017.02.16-04.21.49:202][ 47]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.21.49:205][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003416s)
+[2017.02.16-04.21.49:206][ 47]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.21.49:206][ 47]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2017.02.16-04.21.49:206][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004258s)
+[2017.02.16-04.21.49:229][ 47]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.21.49:240][ 47]LogInit: FAudioDevice initialized.
+[2017.02.16-04.21.49:296][ 47]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.21.49:300][ 47]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.21.49
+[2017.02.16-04.21.49:301][ 47]LogWorld: Bringing up level for play took: 0.003099
+[2017.02.16-04.21.49:344][ 47]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.02.16-04.21.49:354][ 47]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.389
+[2017.02.16-04.21.49:355][ 47]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.21.54:690][641]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.02.16-04.21.56:672][868]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.21.56:735][868]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.22.00:313][288]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.22.00:331][288]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.22.00:331][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.22.00:331][288]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:22:00 PM)
+[2017.02.16-04.22.00:331][288]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.22.00:334][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003390s)
+[2017.02.16-04.22.00:335][288]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.22.00:335][288]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.02.16-04.22.00:335][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004240s)
+[2017.02.16-04.22.00:357][288]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.22.00:366][288]LogInit: FAudioDevice initialized.
+[2017.02.16-04.22.00:410][288]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.22.00:413][288]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.22.00
+[2017.02.16-04.22.00:414][288]LogWorld: Bringing up level for play took: 0.002866
+[2017.02.16-04.22.00:420][288]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.677
+[2017.02.16-04.22.00:421][288]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.22.38:476][356]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.22.38:543][356]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.24.30:894][669]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.24.30:914][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.24.30:914][669]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.24.30:914][669]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.24.31:025][669]LogPlayLevel: PlayLevel: Blueprint regeneration took 110 ms (1 blueprints)
+[2017.02.16-04.24.31:025][669]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:24:31 PM)
+[2017.02.16-04.24.31:025][669]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.24.31:028][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003247s)
+[2017.02.16-04.24.31:029][669]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.24.31:029][669]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2017.02.16-04.24.31:029][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004065s)
+[2017.02.16-04.24.31:052][669]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.24.31:060][669]LogInit: FAudioDevice initialized.
+[2017.02.16-04.24.31:103][669]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.24.31:107][669]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.24.31
+[2017.02.16-04.24.31:107][669]LogWorld: Bringing up level for play took: 0.003261
+[2017.02.16-04.24.31:115][669]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.625
+[2017.02.16-04.24.31:116][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.24.32:890][791]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.02.16-04.24.36:942][206]LogScript:Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2017.02.16-04.24.54:400][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.24.54:477][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.25.36:287][930]Cmd: MAP LOAD FILE="../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.16-04.25.36:289][930]LightingResults: New page: Lighting Build
+[2017.02.16-04.25.36:289][930]LoadErrors: New page: Loading map: Level_1.umap
+[2017.02.16-04.25.36:290][930]MapCheck: New page: Map Check
+[2017.02.16-04.25.36:290][930]LightingResults: New page: Lighting Build
+[2017.02.16-04.25.36:326][930]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.25.36:421][930]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.16-04.25.36:456][930]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.16-04.25.36:518][930]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.41ms to complete.
+[2017.02.16-04.25.36:520][930]LogFileHelpers: Loading map 'Level_1' took 0.234
+[2017.02.16-04.25.49:300][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:ExecuteUbergraph_MushroomPatrol2' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:UserConstructionScript' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:ReceiveBeginPlay' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:PaperFlipbook' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:Box' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:MushroomPatroler' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:Root' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:PatrolTimeline' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:rightEndPoint' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:patrolSpeed' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:stopDelay' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:testRightEnd' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:currentHealth' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C:maxHealth' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.SKEL_MushroomPatrol2_C' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:maxHealth' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:currentHealth' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:testRightEnd' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:stopDelay' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:patrolSpeed' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:rightEndPoint' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:PatrolTimeline' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:Root' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:MushroomPatroler' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:Box' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:PaperFlipbook' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:ReceiveBeginPlay' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:UserConstructionScript' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:090][558]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.MushroomPatrol2_C:ExecuteUbergraph_MushroomPatrol2' ref from Metadata '/Game/Ad_Nauseum/Blueprints/BasicMobs/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.09:147][558]LogSavePackage: Save=39.70ms
+[2017.02.16-04.26.09:147][558]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/MushroomPatrol24FFFBB704CC9755E30E2E4B8F5DF0B3E.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.uasset'
+[2017.02.16-04.26.09:150][558]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.uasset
+[2017.02.16-04.26.25:959][387]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall_C' ref from Metadata '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.25:959][387]LogMetaData: Removing '/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.SKEL_Breaking_Wall_C' ref from Metadata '/Game/Ad_Nauseum/Blueprints/Traps/MushroomPatrol2.PackageMetaData'
+[2017.02.16-04.26.26:012][387]LogSavePackage: Save=37.04ms
+[2017.02.16-04.26.26:012][387]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Breaking_WallF8F715D040569DE1687975BFF3B2751D.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset'
+[2017.02.16-04.26.26:014][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset
+[2017.02.16-04.28.05:098][974]LogSavePackage: Save=29.38ms
+[2017.02.16-04.28.05:098][974]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Breaking_Wall47425E964C7B1D5663E8EDAC6E426F51.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset'
+[2017.02.16-04.28.05:102][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset
+[2017.02.16-04.28.13:480][911]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.28.13:509][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.28.13:509][911]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.28.13:509][911]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.28.13:529][911]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning Could not find a variable named "PatrolTimeline" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableGet_149
+[2017.02.16-04.28.13:530][911]LogBlueprint:Error: [Compiler Breaking_Wall] Error The property associated with  PatrolTimeline  could not be found
+[2017.02.16-04.28.13:805][911]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [1006.45] Compile of Breaking_Wall failed. 1 Fatal Issue(s) 1 Warning(s) [in 283 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.28.13:805][911]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [1006.45] Compile of Breaking_Wall failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.28.13:805][911]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [1006.45] Compile of Breaking_Wall failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.28.13:805][911]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [1006.45] Compile of Breaking_Wall failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.28.13:809][911]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [1006.46] Compile of Breaking_Wall failed. 1 Fatal Issue(s) 5 Warning(s) [in 3 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.28.13:809][911]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [1006.46] Compile of Breaking_Wall failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.28.13:826][911]LogPlayLevel: PlayLevel: Blueprint regeneration took 316 ms (1 blueprints)
+[2017.02.16-04.28.13:826][911]BlueprintLog: Info Blueprint Breaking_Wall failed to compile
+[2017.02.16-04.28.16:016][ 21]BlueprintLog: New page: Compile Breaking_Wall
+[2017.02.16-04.28.16:036][ 21]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning Could not find a variable named "PatrolTimeline" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableGet_149
+[2017.02.16-04.28.16:037][ 21]LogBlueprint:Error: [Compiler Breaking_Wall] Error The property associated with  PatrolTimeline  could not be found
+[2017.02.16-04.28.16:216][ 21]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PatrolTimeline" in 'Breaking_Wall_C'.
+Make sure 'Breaking_Wall_C' has been compiled for  K2Node_VariableGet_149
+[2017.02.16-04.28.16:216][ 21]BlueprintEditorCompileResults:Error: Error The property associated with  PatrolTimeline  could not be found
+[2017.02.16-04.28.16:217][ 21]LogBlueprint:Warning: [Compiler Breaking_Wall] Warning [1008.86] Compile of Breaking_Wall failed. 1 Fatal Issue(s) 1 Warning(s) [in 200 ms] (/Game/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.Breaking_Wall)
+[2017.02.16-04.28.32:390][940]BlueprintLog: New page: Compile Breaking_Wall
+[2017.02.16-04.28.34:054][124]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.28.34:072][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.28.34:072][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.28.34:072][124]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:28:34 PM)
+[2017.02.16-04.28.34:072][124]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.28.34:075][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003305s)
+[2017.02.16-04.28.34:076][124]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.28.34:076][124]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2017.02.16-04.28.34:076][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004151s)
+[2017.02.16-04.28.34:099][124]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.28.34:107][124]LogInit: FAudioDevice initialized.
+[2017.02.16-04.28.34:153][124]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.28.34:156][124]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.28.34
+[2017.02.16-04.28.34:157][124]LogWorld: Bringing up level for play took: 0.003003
+[2017.02.16-04.28.34:164][124]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.426
+[2017.02.16-04.28.34:164][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.28.40:549][885]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.28.40:624][885]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.28.56:753][795]LogEditorTransaction: Undo Move Node
+[2017.02.16-04.28.57:370][860]LogEditorTransaction: Undo Delete current selection
+[2017.02.16-04.29.10:960][468]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.29.10:984][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.10:984][468]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.29.10:984][468]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.29.11:094][468]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (1 blueprints)
+[2017.02.16-04.29.11:094][468]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:29:11 PM)
+[2017.02.16-04.29.11:094][468]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.29.11:097][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003285s)
+[2017.02.16-04.29.11:098][468]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.29.11:098][468]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2017.02.16-04.29.11:098][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004065s)
+[2017.02.16-04.29.11:120][468]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.29.11:129][468]LogInit: FAudioDevice initialized.
+[2017.02.16-04.29.11:168][468]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.29.11:171][468]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.29.11
+[2017.02.16-04.29.11:172][468]LogWorld: Bringing up level for play took: 0.002906
+[2017.02.16-04.29.11:177][468]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.561
+[2017.02.16-04.29.11:177][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.14:040][800]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.14:108][800]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.34:186][187]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.29.34:209][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.34:209][187]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.29.34:209][187]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.29.34:318][187]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2017.02.16-04.29.34:318][187]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:29:34 PM)
+[2017.02.16-04.29.34:318][187]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.29.34:322][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003464s)
+[2017.02.16-04.29.34:322][187]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.29.34:322][187]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.02.16-04.29.34:323][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004310s)
+[2017.02.16-04.29.34:346][187]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.29.34:354][187]LogInit: FAudioDevice initialized.
+[2017.02.16-04.29.34:397][187]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.29.34:400][187]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.29.34
+[2017.02.16-04.29.34:401][187]LogWorld: Bringing up level for play took: 0.003044
+[2017.02.16-04.29.34:406][187]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.669
+[2017.02.16-04.29.34:407][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.39:977][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.40:039][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.41:044][933]LogEditorTransaction: Undo Delete current selection
+[2017.02.16-04.29.42:165][ 52]LogEditorTransaction: Undo Delete current selection
+[2017.02.16-04.29.43:494][201]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.29.43:511][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.43:511][201]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.29.43:511][201]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.29.43:619][201]LogPlayLevel: PlayLevel: Blueprint regeneration took 107 ms (1 blueprints)
+[2017.02.16-04.29.43:619][201]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:29:43 PM)
+[2017.02.16-04.29.43:620][201]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.29.43:623][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003167s)
+[2017.02.16-04.29.43:623][201]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.29.43:623][201]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2017.02.16-04.29.43:623][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.003927s)
+[2017.02.16-04.29.43:645][201]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.29.43:654][201]LogInit: FAudioDevice initialized.
+[2017.02.16-04.29.43:701][201]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.29.43:705][201]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.29.43
+[2017.02.16-04.29.43:705][201]LogWorld: Bringing up level for play took: 0.003012
+[2017.02.16-04.29.43:712][201]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.026
+[2017.02.16-04.29.43:712][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.45:580][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.29.45:643][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.01:921][338]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.30.01:945][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.01:945][338]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.30.01:945][338]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.30.02:055][338]LogPlayLevel: PlayLevel: Blueprint regeneration took 110 ms (1 blueprints)
+[2017.02.16-04.30.02:055][338]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:30:02 PM)
+[2017.02.16-04.30.02:055][338]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.30.02:059][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003179s)
+[2017.02.16-04.30.02:059][338]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.30.02:059][338]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.02.16-04.30.02:059][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.003945s)
+[2017.02.16-04.30.02:081][338]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.30.02:090][338]LogInit: FAudioDevice initialized.
+[2017.02.16-04.30.02:133][338]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.30.02:136][338]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.30.02
+[2017.02.16-04.30.02:137][338]LogWorld: Bringing up level for play took: 0.002928
+[2017.02.16-04.30.02:142][338]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.404
+[2017.02.16-04.30.02:142][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.03:851][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.03:916][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.16:571][ 33]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.30.16:594][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.16:594][ 33]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.30.16:594][ 33]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.30.16:704][ 33]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (1 blueprints)
+[2017.02.16-04.30.16:704][ 33]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:30:16 PM)
+[2017.02.16-04.30.16:704][ 33]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.30.16:708][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003280s)
+[2017.02.16-04.30.16:708][ 33]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.30.16:708][ 33]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2017.02.16-04.30.16:708][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004062s)
+[2017.02.16-04.30.16:730][ 33]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.30.16:739][ 33]LogInit: FAudioDevice initialized.
+[2017.02.16-04.30.16:782][ 33]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.30.16:786][ 33]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.30.16
+[2017.02.16-04.30.16:787][ 33]LogWorld: Bringing up level for play took: 0.002964
+[2017.02.16-04.30.16:791][ 33]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 1.054
+[2017.02.16-04.30.16:792][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.18:402][216]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.18:469][216]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.59:444][104]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.30.59:467][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.30.59:467][104]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.30.59:467][104]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.30.59:574][104]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2017.02.16-04.30.59:574][104]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:30:59 PM)
+[2017.02.16-04.30.59:574][104]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.30.59:577][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003266s)
+[2017.02.16-04.30.59:578][104]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.30.59:578][104]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2017.02.16-04.30.59:578][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004071s)
+[2017.02.16-04.30.59:600][104]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.30.59:608][104]LogInit: FAudioDevice initialized.
+[2017.02.16-04.30.59:650][104]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.30.59:653][104]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.30.59
+[2017.02.16-04.30.59:654][104]LogWorld: Bringing up level for play took: 0.003088
+[2017.02.16-04.30.59:659][104]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.078
+[2017.02.16-04.30.59:659][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.01:181][272]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.01:246][272]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.20:849][583]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.31.20:871][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.20:872][583]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.16-04.31.20:872][583]LogPlayLevel: [PlayLevel] Compiling Breaking_Wall before play...
+[2017.02.16-04.31.21:113][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 241 ms (1 blueprints)
+[2017.02.16-04.31.21:113][583]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:31:21 PM)
+[2017.02.16-04.31.21:113][583]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.31.21:116][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003524s)
+[2017.02.16-04.31.21:117][583]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.31.21:117][583]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2017.02.16-04.31.21:117][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004385s)
+[2017.02.16-04.31.21:140][583]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.31.21:148][583]LogInit: FAudioDevice initialized.
+[2017.02.16-04.31.21:192][583]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.31.21:195][583]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.31.21
+[2017.02.16-04.31.21:196][583]LogWorld: Bringing up level for play took: 0.002916
+[2017.02.16-04.31.21:201][583]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.535
+[2017.02.16-04.31.21:202][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.22:967][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.23:033][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.25:562][ 75]LogSavePackage: Save=20.46ms
+[2017.02.16-04.31.25:562][ 75]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Breaking_Wall4635A2784A5DDB97B8BBCA8EA18EA44C.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset'
+[2017.02.16-04.31.25:565][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset
+[2017.02.16-04.31.26:232][155]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.31.26:254][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.26:254][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.31.26:254][155]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:31:26 PM)
+[2017.02.16-04.31.26:254][155]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.31.26:258][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003406s)
+[2017.02.16-04.31.26:258][155]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.31.26:258][155]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.02.16-04.31.26:258][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004302s)
+[2017.02.16-04.31.26:280][155]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.31.26:289][155]LogInit: FAudioDevice initialized.
+[2017.02.16-04.31.26:330][155]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.31.26:334][155]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.31.26
+[2017.02.16-04.31.26:334][155]LogWorld: Bringing up level for play took: 0.003052
+[2017.02.16-04.31.26:339][155]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.602
+[2017.02.16-04.31.26:339][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.34:283][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.31.34:344][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.32.15:476][932]BlueprintLog: New page: Compile Breaking_Wall
+[2017.02.16-04.32.16:321][ 11]LogSavePackage: Save=19.98ms
+[2017.02.16-04.32.16:321][ 11]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Breaking_Wall80666FC64A7514B5950EE29ABAFBEEB0.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset'
+[2017.02.16-04.32.16:324][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset
+[2017.02.16-04.32.17:284][126]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.32.17:306][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.32.17:306][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.32.17:306][126]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:32:17 PM)
+[2017.02.16-04.32.17:306][126]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.32.17:309][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003356s)
+[2017.02.16-04.32.17:310][126]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.32.17:310][126]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2017.02.16-04.32.17:310][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004169s)
+[2017.02.16-04.32.17:332][126]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.32.17:341][126]LogInit: FAudioDevice initialized.
+[2017.02.16-04.32.17:384][126]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.32.17:388][126]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.32.17
+[2017.02.16-04.32.17:388][126]LogWorld: Bringing up level for play took: 0.003050
+[2017.02.16-04.32.17:394][126]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.343
+[2017.02.16-04.32.17:394][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.32.19:287][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.32.19:352][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.32.56:783][811]BlueprintLog: New page: Compile Breaking_Wall
+[2017.02.16-04.32.57:969][939]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.32.57:992][939]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.32.57:992][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.32.57:992][939]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:32:57 PM)
+[2017.02.16-04.32.57:993][939]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.32.57:996][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003613s)
+[2017.02.16-04.32.57:997][939]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.32.57:997][939]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.02.16-04.32.57:997][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004437s)
+[2017.02.16-04.32.58:020][939]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.32.58:028][939]LogInit: FAudioDevice initialized.
+[2017.02.16-04.32.58:070][939]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.32.58:074][939]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.32.58
+[2017.02.16-04.32.58:074][939]LogWorld: Bringing up level for play took: 0.002911
+[2017.02.16-04.32.58:079][939]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.343
+[2017.02.16-04.32.58:080][939]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.32.59:689][121]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.32.59:748][121]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.33.38:634][762]BlueprintLog: New page: Compile Breaking_Wall
+[2017.02.16-04.33.39:671][872]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.33.39:693][872]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.33.39:693][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.33.39:693][872]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:33:39 PM)
+[2017.02.16-04.33.39:693][872]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.33.39:696][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003333s)
+[2017.02.16-04.33.39:697][872]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.33.39:697][872]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2017.02.16-04.33.39:697][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004147s)
+[2017.02.16-04.33.39:720][872]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.33.39:729][872]LogInit: FAudioDevice initialized.
+[2017.02.16-04.33.39:769][872]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.33.39:773][872]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.33.39
+[2017.02.16-04.33.39:774][872]LogWorld: Bringing up level for play took: 0.003063
+[2017.02.16-04.33.39:779][872]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 0.043
+[2017.02.16-04.33.39:779][872]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.33.41:263][ 42]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.33.41:325][ 42]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.33.54:157][568]LogSavePackage: Save=19.22ms
+[2017.02.16-04.33.54:157][568]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Breaking_Wall51F3DB134294B2E5BABBC497F6B43B3B.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset'
+[2017.02.16-04.33.54:159][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Blueprints/Traps/Breaking_Wall.uasset
+[2017.02.16-04.33.57:179][917]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.33.57:200][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.33.57:200][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.33.57:200][917]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:33:57 PM)
+[2017.02.16-04.33.57:200][917]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.33.57:204][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003438s)
+[2017.02.16-04.33.57:204][917]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.33.57:205][917]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.02.16-04.33.57:205][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004246s)
+[2017.02.16-04.33.57:228][917]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.33.57:237][917]LogInit: FAudioDevice initialized.
+[2017.02.16-04.33.57:282][917]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.33.57:285][917]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.33.57
+[2017.02.16-04.33.57:286][917]LogWorld: Bringing up level for play took: 0.002734
+[2017.02.16-04.33.57:294][917]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.441
+[2017.02.16-04.33.57:295][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.33.59:029][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.33.59:090][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.34.04:344][665]LogEditorViewport: Clicking on Actor (LMB): Breaking_Wall_C (Breaking_Wall)
+[2017.02.16-04.34.05:401][784]Cmd: DELETE
+[2017.02.16-04.34.05:401][784]Cmd: ACTOR DELETE
+[2017.02.16-04.34.05:402][784]LogEditorActor: Deleted Actor: Breaking_Wall_C
+[2017.02.16-04.34.05:417][784]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.02.16-04.34.06:699][911]LogSavePackage: Save=112.63ms
+[2017.02.16-04.34.06:699][911]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Level_1529CF4B241B4EB64570FAEBF4696C659.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap'
+[2017.02.16-04.34.06:701][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap
+[2017.02.16-04.34.54:379][364]LogEditorViewport: Clicking on Actor (LMB): Breaking_Wall_C (Breaking_Wall2)
+[2017.02.16-04.34.57:384][695]LogEditorViewport: Clicking Background
+[2017.02.16-04.34.59:414][927]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.34.59:436][927]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.34.59:436][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.34.59:436][927]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:34:59 PM)
+[2017.02.16-04.34.59:436][927]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.34.59:440][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003465s)
+[2017.02.16-04.34.59:440][927]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.34.59:441][927]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.02.16-04.34.59:441][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004332s)
+[2017.02.16-04.34.59:467][927]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.34.59:476][927]LogInit: FAudioDevice initialized.
+[2017.02.16-04.34.59:523][927]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.34.59:526][927]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.34.59
+[2017.02.16-04.34.59:527][927]LogWorld: Bringing up level for play took: 0.002902
+[2017.02.16-04.34.59:535][927]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.2
+[2017.02.16-04.34.59:535][927]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.05:414][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.05:469][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.06:212][559]LogEditorViewport: Clicking on Actor (LMB): Breaking_Wall_C (Breaking_Wall2)
+[2017.02.16-04.35.07:017][646]Cmd: DELETE
+[2017.02.16-04.35.07:017][646]Cmd: ACTOR DELETE
+[2017.02.16-04.35.07:017][646]LogEditorActor: Deleted Actor: Breaking_Wall_C
+[2017.02.16-04.35.07:032][646]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.02.16-04.35.08:888][859]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.35.08:909][859]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.08:909][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.35.08:909][859]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:35:08 PM)
+[2017.02.16-04.35.08:909][859]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.35.08:912][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003661s)
+[2017.02.16-04.35.08:913][859]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.35.08:913][859]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2017.02.16-04.35.08:913][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004580s)
+[2017.02.16-04.35.08:935][859]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.35.08:943][859]LogInit: FAudioDevice initialized.
+[2017.02.16-04.35.08:989][859]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.35.08:993][859]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.35.08
+[2017.02.16-04.35.08:993][859]LogWorld: Bringing up level for play took: 0.003194
+[2017.02.16-04.35.09:002][859]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.733
+[2017.02.16-04.35.09:002][859]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.13:245][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.13:297][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.15:155][465]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.02.16-04.35.15:172][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.15:173][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.16-04.35.15:173][465]PIE: New page: PIE session: Level_1 (Feb 15, 2017, 6:35:15 PM)
+[2017.02.16-04.35.15:173][465]LogPlayLevel: Creating play world package: /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1
+[2017.02.16-04.35.15:176][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003379s)
+[2017.02.16-04.35.15:177][465]LogAIModule: Creating AISystem for world Level_1
+[2017.02.16-04.35.15:177][465]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.02.16-04.35.15:177][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ad_Nauseum/Levels/Level_1.Level_1 to /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 (0.004218s)
+[2017.02.16-04.35.15:199][465]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-04.35.15:208][465]LogInit: FAudioDevice initialized.
+[2017.02.16-04.35.15:257][465]LogLoad: Game class is 'Ad_Nauseum_GameMode_C'
+[2017.02.16-04.35.15:261][465]LogWorld: Bringing World /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.02.15-23.35.15
+[2017.02.16-04.35.15:262][465]LogWorld: Bringing up level for play took: 0.003019
+[2017.02.16-04.35.15:270][465]PIE: Info Play in editor start time for /Game/Ad_Nauseum/Levels/UEDPIE_0_Level_1 -0.465
+[2017.02.16-04.35.15:270][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.27:879][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.27:937][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Ad_Nauseum/Levels/Level_1.Level_C' with ClassGeneratedBy '/Game/Ad_Nauseum/Levels/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.02.16-04.35.31:008][ 12]LogEditorViewport: Clicking on Actor (LMB): Breaking_Wall_C (Breaking_Wall)
+[2017.02.16-04.35.31:835][103]Cmd: DELETE
+[2017.02.16-04.35.31:835][103]Cmd: ACTOR DELETE
+[2017.02.16-04.35.31:836][103]LogEditorActor: Deleted Actor: Breaking_Wall_C
+[2017.02.16-04.35.31:851][103]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.02.16-04.35.33:444][267]LogSavePackage: Save=110.21ms
+[2017.02.16-04.35.33:444][267]LogSavePackage: Moving '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Saved/Level_1E447B49D48CB9CEC52C7B78B3DF5A6E1.tmp' to '../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap'
+[2017.02.16-04.35.33:447][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nlfosdic/Ad_Nauseum_UE4/Ad_Nauseum/Content/Ad_Nauseum/Levels/Level_1.umap
